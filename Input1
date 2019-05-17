@@ -1,0 +1,65 @@
+
+	Distribution Summary
+
+Distribution:	Beta         
+Expression:	4 * BETA(0.669, 3.53)
+Square Error:	0.001583
+
+Chi Square Test
+  Number of intervals	= 4
+  Degrees of freedom 	= 1
+  Test Statistic     	= 0.504
+  Corresponding p-value	= 0.486
+
+Kolmogorov-Smirnov Test
+  Test Statistic	= 0.096
+  Corresponding p-value	> 0.15
+
+	Data Summary
+
+Number of Data Points	= 100
+Min Data Value       	= 0.002
+Max Data Value       	= 3.87
+Sample Mean          	= 0.638
+Sample Std Dev       	= 0.643
+
+	Histogram Summary
+
+Histogram Range    	= 0 to 4
+Number of Intervals	= 10
+
+
+==================================================================
+Int.   No. of               Probability           Cumulative      
+No.    Data Pts.   x        Density               Distribution    
+------------------------------------------------------------------
+                            Data   Function       Data   Function   
+   0    50      0.400      0.500      0.512      0.500      0.512
+   1    22      0.800      0.220      0.214      0.720      0.727
+   2    11       1.20      0.110      0.131      0.830      0.858
+   3     7       1.60     0.0700     0.0815      0.900      0.939
+   4     7       2.00     0.0700     0.0492      0.970      0.988
+   5     2       2.40     0.0200     0.0278      0.990       1.02
+   6     0       2.80      0.000     0.0140      0.990       1.03
+   7     0       3.20      0.000    0.00579      0.990       1.04
+   8     0       3.60      0.000    0.00160      0.990       1.04
+   9     1       4.00     0.0100   0.000147       1.00       1.04
+
+
+=================================================================
+
+
+Data File: C:\Users\Fatih\Google Drive\Boun\IE306\Assignment 3\interarrival times.txt
+
+
+Function       Sq Error
+-----------------------
+Beta           0.00158
+Weibull        0.00221
+Gamma          0.00265
+Erlang         0.00378
+Exponential    0.00378
+Lognormal      0.00747
+Normal         0.107
+Triangular     0.15
+Uniform        0.221

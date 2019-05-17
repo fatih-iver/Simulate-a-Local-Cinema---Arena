@@ -1,0 +1,17 @@
+Fit All
+
+Document:  C:\Users\Fatih\Google Drive\Boun\IE306\Assignment 3\interarrival times.txt
+Data File: C:\Users\Fatih\Google Drive\Boun\IE306\Assignment 3\interarrival times.txt
+
+
+Function       Sq Error
+-----------------------
+Beta           0.00158
+Weibull        0.00221
+Gamma          0.00265
+Erlang         0.00378
+Exponential    0.00378
+Lognormal      0.00747
+Normal         0.107
+Triangular     0.15
+Uniform        0.221
