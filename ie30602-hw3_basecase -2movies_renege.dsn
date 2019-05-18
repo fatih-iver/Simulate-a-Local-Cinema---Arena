@@ -9,5 +9,5 @@ MaxScanRows=8
 MaxBufferSize=2048
 FIL=MS Access
 DriverId=281
-DefaultDir=C:\Users\Fatih\Google Drive\Boun\IE306\Assignment 3
-DBQ=C:\Users\Fatih\Desktop\ie30602-hw3_basecase -2movies_renege.accdb
+DefaultDir=C:\Users\Fatih\Desktop\Simulate-a-Local-Cinema
+DBQ=C:\Users\Fatih\Desktop\Simulate-a-Local-Cinema\ie30602-hw3_basecase -2movies_renege.accdb
