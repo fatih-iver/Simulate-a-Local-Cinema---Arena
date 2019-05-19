@@ -1,0 +1,332 @@
+Unnamed Project,,Replications:,30,,,,,,,
+Replication 1,Start Time:,0.00,Stop Time:,,120.00,Time Units:,Minutes,,,
+Tally,,,,,,,,,,
+Expression,Average,,Half Width,Minimum,Maximum,,,,,
+Movie1SoldOutTime,,28.8001,,,,,(Insufficient),,28.8001,28.8001
+Movie2SoldOutTime,,33.9458,,,,,(Insufficient),,33.9458,33.9458
+Movie3SoldOutTime,,47.7339,,,,,(Insufficient),,47.7339,47.7339
+Counter,,,,,,,,,,
+Count,,Value,,,,,,,,
+Record Reneging Movie1 Customers,,,,1.0000,,,,,,
+Record Reneging Movie2 Customers,,,,2.0000,,,,,,
+Record Reneging Movie3 Customers,,,,2.0000,,,,,,
+Replication 10,Start Time:,0.00,Stop Time:,,120.00,Time Units:,Minutes,,,
+Tally,,,,,,,,,,
+Expression,Average,,Half Width,Minimum,Maximum,,,,,
+Movie1SoldOutTime,,28.9749,,,,,(Insufficient),,28.9749,28.9749
+Movie2SoldOutTime,,24.5111,,,,,(Insufficient),,24.5111,24.5111
+Movie3SoldOutTime,,44.5517,,,,,(Insufficient),,44.5517,44.5517
+Counter,,,,,,,,,,
+Count,,Value,,,,,,,,
+Record Reneging Movie1 Customers,,,,1.0000,,,,,,
+Record Reneging Movie2 Customers,,,,2.0000,,,,,,
+Record Reneging Movie3 Customers,,,,0,,,,,,
+Replication 11,Start Time:,0.00,Stop Time:,,120.00,Time Units:,Minutes,,,
+Tally,,,,,,,,,,
+Expression,Average,,Half Width,Minimum,Maximum,,,,,
+Movie1SoldOutTime,,23.5010,,,,,(Insufficient),,23.5010,23.5010
+Movie2SoldOutTime,,27.8456,,,,,(Insufficient),,27.8456,27.8456
+Movie3SoldOutTime,,24.9838,,,,,(Insufficient),,24.9838,24.9838
+Counter,,,,,,,,,,
+Count,,Value,,,,,,,,
+Record Reneging Movie1 Customers,,,,2.0000,,,,,,
+Record Reneging Movie2 Customers,,,,3.0000,,,,,,
+Record Reneging Movie3 Customers,,,,1.0000,,,,,,
+Replication 12,Start Time:,0.00,Stop Time:,,120.00,Time Units:,Minutes,,,
+Tally,,,,,,,,,,
+Expression,Average,,Half Width,Minimum,Maximum,,,,,
+Movie1SoldOutTime,,31.9941,,,,,(Insufficient),,31.9941,31.9941
+Movie2SoldOutTime,,22.9201,,,,,(Insufficient),,22.9201,22.9201
+Movie3SoldOutTime,,42.4483,,,,,(Insufficient),,42.4483,42.4483
+Counter,,,,,,,,,,
+Count,,Value,,,,,,,,
+Record Reneging Movie1 Customers,,,,0,,,,,,
+Record Reneging Movie2 Customers,,,,0,,,,,,
+Record Reneging Movie3 Customers,,,,0,,,,,,
+Replication 13,Start Time:,0.00,Stop Time:,,120.00,Time Units:,Minutes,,,
+Tally,,,,,,,,,,
+Expression,Average,,Half Width,Minimum,Maximum,,,,,
+Movie1SoldOutTime,,25.8861,,,,,(Insufficient),,25.8861,25.8861
+Movie2SoldOutTime,,29.6775,,,,,(Insufficient),,29.6775,29.6775
+Movie3SoldOutTime,,27.0717,,,,,(Insufficient),,27.0717,27.0717
+Counter,,,,,,,,,,
+Count,,Value,,,,,,,,
+Record Reneging Movie1 Customers,,,,0,,,,,,
+Record Reneging Movie2 Customers,,,,2.0000,,,,,,
+Record Reneging Movie3 Customers,,,,1.0000,,,,,,
+Replication 14,Start Time:,0.00,Stop Time:,,120.00,Time Units:,Minutes,,,
+Tally,,,,,,,,,,
+Expression,Average,,Half Width,Minimum,Maximum,,,,,
+Movie1SoldOutTime,,28.6451,,,,,(Insufficient),,28.6451,28.6451
+Movie2SoldOutTime,,27.3029,,,,,(Insufficient),,27.3029,27.3029
+Movie3SoldOutTime,,56.2474,,,,,(Insufficient),,56.2474,56.2474
+Counter,,,,,,,,,,
+Count,,Value,,,,,,,,
+Record Reneging Movie1 Customers,,,,2.0000,,,,,,
+Record Reneging Movie2 Customers,,,,0,,,,,,
+Record Reneging Movie3 Customers,,,,1.0000,,,,,,
+Replication 15,Start Time:,0.00,Stop Time:,,120.00,Time Units:,Minutes,,,
+Tally,,,,,,,,,,
+Expression,Average,,Half Width,Minimum,Maximum,,,,,
+Movie1SoldOutTime,,33.2172,,,,,(Insufficient),,33.2172,33.2172
+Movie2SoldOutTime,,36.0777,,,,,(Insufficient),,36.0777,36.0777
+Movie3SoldOutTime,,30.9579,,,,,(Insufficient),,30.9579,30.9579
+Counter,,,,,,,,,,
+Count,,Value,,,,,,,,
+Record Reneging Movie1 Customers,,,,4.0000,,,,,,
+Record Reneging Movie2 Customers,,,,0,,,,,,
+Record Reneging Movie3 Customers,,,,1.0000,,,,,,
+Replication 16,Start Time:,0.00,Stop Time:,,120.00,Time Units:,Minutes,,,
+Tally,,,,,,,,,,
+Expression,Average,,Half Width,Minimum,Maximum,,,,,
+Movie1SoldOutTime,,27.1429,,,,,(Insufficient),,27.1429,27.1429
+Movie2SoldOutTime,,38.4441,,,,,(Insufficient),,38.4441,38.4441
+Movie3SoldOutTime,,31.5399,,,,,(Insufficient),,31.5399,31.5399
+Counter,,,,,,,,,,
+Count,,Value,,,,,,,,
+Record Reneging Movie1 Customers,,,,1.0000,,,,,,
+Record Reneging Movie2 Customers,,,,4.0000,,,,,,
+Record Reneging Movie3 Customers,,,,3.0000,,,,,,
+Replication 17,Start Time:,0.00,Stop Time:,,120.00,Time Units:,Minutes,,,
+Tally,,,,,,,,,,
+Expression,Average,,Half Width,Minimum,Maximum,,,,,
+Movie1SoldOutTime,,40.7299,,,,,(Insufficient),,40.7299,40.7299
+Movie2SoldOutTime,,26.6016,,,,,(Insufficient),,26.6016,26.6016
+Movie3SoldOutTime,,35.0266,,,,,(Insufficient),,35.0266,35.0266
+Counter,,,,,,,,,,
+Count,,Value,,,,,,,,
+Record Reneging Movie1 Customers,,,,0,,,,,,
+Record Reneging Movie2 Customers,,,,2.0000,,,,,,
+Record Reneging Movie3 Customers,,,,2.0000,,,,,,
+Replication 18,Start Time:,0.00,Stop Time:,,120.00,Time Units:,Minutes,,,
+Tally,,,,,,,,,,
+Expression,Average,,Half Width,Minimum,Maximum,,,,,
+Movie1SoldOutTime,,32.5185,,,,,(Insufficient),,32.5185,32.5185
+Movie2SoldOutTime,,32.2188,,,,,(Insufficient),,32.2188,32.2188
+Movie3SoldOutTime,,30.8911,,,,,(Insufficient),,30.8911,30.8911
+Counter,,,,,,,,,,
+Count,,Value,,,,,,,,
+Record Reneging Movie1 Customers,,,,2.0000,,,,,,
+Record Reneging Movie2 Customers,,,,1.0000,,,,,,
+Record Reneging Movie3 Customers,,,,2.0000,,,,,,
+Replication 19,Start Time:,0.00,Stop Time:,,120.00,Time Units:,Minutes,,,
+Tally,,,,,,,,,,
+Expression,Average,,Half Width,Minimum,Maximum,,,,,
+Movie1SoldOutTime,,29.6880,,,,,(Insufficient),,29.6880,29.6880
+Movie2SoldOutTime,,30.4836,,,,,(Insufficient),,30.4836,30.4836
+Movie3SoldOutTime,,30.5849,,,,,(Insufficient),,30.5849,30.5849
+Counter,,,,,,,,,,
+Count,,Value,,,,,,,,
+Record Reneging Movie1 Customers,,,,3.0000,,,,,,
+Record Reneging Movie2 Customers,,,,3.0000,,,,,,
+Record Reneging Movie3 Customers,,,,0,,,,,,
+Replication 2,Start Time:,0.00,Stop Time:,,120.00,Time Units:,Minutes,,,
+Tally,,,,,,,,,,
+Expression,Average,,Half Width,Minimum,Maximum,,,,,
+Movie1SoldOutTime,,25.1221,,,,,(Insufficient),,25.1221,25.1221
+Movie2SoldOutTime,,27.1684,,,,,(Insufficient),,27.1684,27.1684
+Movie3SoldOutTime,,25.2105,,,,,(Insufficient),,25.2105,25.2105
+Counter,,,,,,,,,,
+Count,,Value,,,,,,,,
+Record Reneging Movie1 Customers,,,,2.0000,,,,,,
+Record Reneging Movie2 Customers,,,,0,,,,,,
+Record Reneging Movie3 Customers,,,,0,,,,,,
+Replication 20,Start Time:,0.00,Stop Time:,,120.00,Time Units:,Minutes,,,
+Tally,,,,,,,,,,
+Expression,Average,,Half Width,Minimum,Maximum,,,,,
+Movie1SoldOutTime,,27.2698,,,,,(Insufficient),,27.2698,27.2698
+Movie2SoldOutTime,,18.2536,,,,,(Insufficient),,18.2536,18.2536
+Movie3SoldOutTime,,44.5173,,,,,(Insufficient),,44.5173,44.5173
+Counter,,,,,,,,,,
+Count,,Value,,,,,,,,
+Record Reneging Movie1 Customers,,,,0,,,,,,
+Record Reneging Movie2 Customers,,,,2.0000,,,,,,
+Record Reneging Movie3 Customers,,,,10.0000,,,,,,
+Replication 21,Start Time:,0.00,Stop Time:,,120.00,Time Units:,Minutes,,,
+Tally,,,,,,,,,,
+Expression,Average,,Half Width,Minimum,Maximum,,,,,
+Movie1SoldOutTime,,24.4326,,,,,(Insufficient),,24.4326,24.4326
+Movie2SoldOutTime,,40.7376,,,,,(Insufficient),,40.7376,40.7376
+Movie3SoldOutTime,,32.2625,,,,,(Insufficient),,32.2625,32.2625
+Counter,,,,,,,,,,
+Count,,Value,,,,,,,,
+Record Reneging Movie1 Customers,,,,4.0000,,,,,,
+Record Reneging Movie2 Customers,,,,0,,,,,,
+Record Reneging Movie3 Customers,,,,1.0000,,,,,,
+Replication 22,Start Time:,0.00,Stop Time:,,120.00,Time Units:,Minutes,,,
+Tally,,,,,,,,,,
+Expression,Average,,Half Width,Minimum,Maximum,,,,,
+Movie1SoldOutTime,,43.8259,,,,,(Insufficient),,43.8259,43.8259
+Movie2SoldOutTime,,25.9502,,,,,(Insufficient),,25.9502,25.9502
+Movie3SoldOutTime,,22.5870,,,,,(Insufficient),,22.5870,22.5870
+Counter,,,,,,,,,,
+Count,,Value,,,,,,,,
+Record Reneging Movie1 Customers,,,,0,,,,,,
+Record Reneging Movie2 Customers,,,,0,,,,,,
+Record Reneging Movie3 Customers,,,,4.0000,,,,,,
+Replication 23,Start Time:,0.00,Stop Time:,,120.00,Time Units:,Minutes,,,
+Tally,,,,,,,,,,
+Expression,Average,,Half Width,Minimum,Maximum,,,,,
+Movie1SoldOutTime,,33.8549,,,,,(Insufficient),,33.8549,33.8549
+Movie2SoldOutTime,,30.7180,,,,,(Insufficient),,30.7180,30.7180
+Movie3SoldOutTime,,27.0518,,,,,(Insufficient),,27.0518,27.0518
+Counter,,,,,,,,,,
+Count,,Value,,,,,,,,
+Record Reneging Movie1 Customers,,,,1.0000,,,,,,
+Record Reneging Movie2 Customers,,,,0,,,,,,
+Record Reneging Movie3 Customers,,,,0,,,,,,
+Replication 24,Start Time:,0.00,Stop Time:,,120.00,Time Units:,Minutes,,,
+Tally,,,,,,,,,,
+Expression,Average,,Half Width,Minimum,Maximum,,,,,
+Movie1SoldOutTime,,56.5368,,,,,(Insufficient),,56.5368,56.5368
+Movie2SoldOutTime,,33.7114,,,,,(Insufficient),,33.7114,33.7114
+Movie3SoldOutTime,,24.7971,,,,,(Insufficient),,24.7971,24.7971
+Counter,,,,,,,,,,
+Count,,Value,,,,,,,,
+Record Reneging Movie1 Customers,,,,1.0000,,,,,,
+Record Reneging Movie2 Customers,,,,1.0000,,,,,,
+Record Reneging Movie3 Customers,,,,4.0000,,,,,,
+Replication 25,Start Time:,0.00,Stop Time:,,120.00,Time Units:,Minutes,,,
+Tally,,,,,,,,,,
+Expression,Average,,Half Width,Minimum,Maximum,,,,,
+Movie1SoldOutTime,,21.3815,,,,,(Insufficient),,21.3815,21.3815
+Movie2SoldOutTime,,28.8304,,,,,(Insufficient),,28.8304,28.8304
+Movie3SoldOutTime,,26.1308,,,,,(Insufficient),,26.1308,26.1308
+Counter,,,,,,,,,,
+Count,,Value,,,,,,,,
+Record Reneging Movie1 Customers,,,,6.0000,,,,,,
+Record Reneging Movie2 Customers,,,,0,,,,,,
+Record Reneging Movie3 Customers,,,,6.0000,,,,,,
+Replication 26,Start Time:,0.00,Stop Time:,,120.00,Time Units:,Minutes,,,
+Tally,,,,,,,,,,
+Expression,Average,,Half Width,Minimum,Maximum,,,,,
+Movie1SoldOutTime,,29.9357,,,,,(Insufficient),,29.9357,29.9357
+Movie2SoldOutTime,,33.3748,,,,,(Insufficient),,33.3748,33.3748
+Movie3SoldOutTime,,25.1422,,,,,(Insufficient),,25.1422,25.1422
+Counter,,,,,,,,,,
+Count,,Value,,,,,,,,
+Record Reneging Movie1 Customers,,,,0,,,,,,
+Record Reneging Movie2 Customers,,,,1.0000,,,,,,
+Record Reneging Movie3 Customers,,,,3.0000,,,,,,
+Replication 27,Start Time:,0.00,Stop Time:,,120.00,Time Units:,Minutes,,,
+Tally,,,,,,,,,,
+Expression,Average,,Half Width,Minimum,Maximum,,,,,
+Movie1SoldOutTime,,24.3168,,,,,(Insufficient),,24.3168,24.3168
+Movie2SoldOutTime,,46.9796,,,,,(Insufficient),,46.9796,46.9796
+Movie3SoldOutTime,,27.3329,,,,,(Insufficient),,27.3329,27.3329
+Counter,,,,,,,,,,
+Count,,Value,,,,,,,,
+Record Reneging Movie1 Customers,,,,1.0000,,,,,,
+Record Reneging Movie2 Customers,,,,2.0000,,,,,,
+Record Reneging Movie3 Customers,,,,1.0000,,,,,,
+Replication 28,Start Time:,0.00,Stop Time:,,120.00,Time Units:,Minutes,,,
+Tally,,,,,,,,,,
+Expression,Average,,Half Width,Minimum,Maximum,,,,,
+Movie1SoldOutTime,,24.7058,,,,,(Insufficient),,24.7058,24.7058
+Movie2SoldOutTime,,24.8817,,,,,(Insufficient),,24.8817,24.8817
+Movie3SoldOutTime,,31.9096,,,,,(Insufficient),,31.9096,31.9096
+Counter,,,,,,,,,,
+Count,,Value,,,,,,,,
+Record Reneging Movie1 Customers,,,,3.0000,,,,,,
+Record Reneging Movie2 Customers,,,,6.0000,,,,,,
+Record Reneging Movie3 Customers,,,,0,,,,,,
+Replication 29,Start Time:,0.00,Stop Time:,,120.00,Time Units:,Minutes,,,
+Tally,,,,,,,,,,
+Expression,Average,,Half Width,Minimum,Maximum,,,,,
+Movie1SoldOutTime,,25.6385,,,,,(Insufficient),,25.6385,25.6385
+Movie2SoldOutTime,,31.5878,,,,,(Insufficient),,31.5878,31.5878
+Movie3SoldOutTime,,23.4073,,,,,(Insufficient),,23.4073,23.4073
+Counter,,,,,,,,,,
+Count,,Value,,,,,,,,
+Record Reneging Movie1 Customers,,,,1.0000,,,,,,
+Record Reneging Movie2 Customers,,,,5.0000,,,,,,
+Record Reneging Movie3 Customers,,,,6.0000,,,,,,
+Replication 3,Start Time:,0.00,Stop Time:,,120.00,Time Units:,Minutes,,,
+Tally,,,,,,,,,,
+Expression,Average,,Half Width,Minimum,Maximum,,,,,
+Movie1SoldOutTime,,27.7123,,,,,(Insufficient),,27.7123,27.7123
+Movie2SoldOutTime,,26.2919,,,,,(Insufficient),,26.2919,26.2919
+Movie3SoldOutTime,,25.7829,,,,,(Insufficient),,25.7829,25.7829
+Counter,,,,,,,,,,
+Count,,Value,,,,,,,,
+Record Reneging Movie1 Customers,,,,2.0000,,,,,,
+Record Reneging Movie2 Customers,,,,0,,,,,,
+Record Reneging Movie3 Customers,,,,3.0000,,,,,,
+Replication 30,Start Time:,0.00,Stop Time:,,120.00,Time Units:,Minutes,,,
+Tally,,,,,,,,,,
+Expression,Average,,Half Width,Minimum,Maximum,,,,,
+Movie1SoldOutTime,,23.0523,,,,,(Insufficient),,23.0523,23.0523
+Movie2SoldOutTime,,22.6193,,,,,(Insufficient),,22.6193,22.6193
+Movie3SoldOutTime,,35.6437,,,,,(Insufficient),,35.6437,35.6437
+Counter,,,,,,,,,,
+Count,,Value,,,,,,,,
+Record Reneging Movie1 Customers,,,,0,,,,,,
+Record Reneging Movie2 Customers,,,,2.0000,,,,,,
+Record Reneging Movie3 Customers,,,,1.0000,,,,,,
+Replication 4,Start Time:,0.00,Stop Time:,,120.00,Time Units:,Minutes,,,
+Tally,,,,,,,,,,
+Expression,Average,,Half Width,Minimum,Maximum,,,,,
+Movie1SoldOutTime,,38.3005,,,,,(Insufficient),,38.3005,38.3005
+Movie2SoldOutTime,,34.7815,,,,,(Insufficient),,34.7815,34.7815
+Movie3SoldOutTime,,21.7758,,,,,(Insufficient),,21.7758,21.7758
+Counter,,,,,,,,,,
+Count,,Value,,,,,,,,
+Record Reneging Movie1 Customers,,,,1.0000,,,,,,
+Record Reneging Movie2 Customers,,,,1.0000,,,,,,
+Record Reneging Movie3 Customers,,,,0,,,,,,
+Replication 5,Start Time:,0.00,Stop Time:,,120.00,Time Units:,Minutes,,,
+Tally,,,,,,,,,,
+Expression,Average,,Half Width,Minimum,Maximum,,,,,
+Movie1SoldOutTime,,25.1784,,,,,(Insufficient),,25.1784,25.1784
+Movie2SoldOutTime,,24.8446,,,,,(Insufficient),,24.8446,24.8446
+Movie3SoldOutTime,,32.4184,,,,,(Insufficient),,32.4184,32.4184
+Counter,,,,,,,,,,
+Count,,Value,,,,,,,,
+Record Reneging Movie1 Customers,,,,3.0000,,,,,,
+Record Reneging Movie2 Customers,,,,1.0000,,,,,,
+Record Reneging Movie3 Customers,,,,0,,,,,,
+Replication 6,Start Time:,0.00,Stop Time:,,120.00,Time Units:,Minutes,,,
+Tally,,,,,,,,,,
+Expression,Average,,Half Width,Minimum,Maximum,,,,,
+Movie1SoldOutTime,,24.6449,,,,,(Insufficient),,24.6449,24.6449
+Movie2SoldOutTime,,39.6521,,,,,(Insufficient),,39.6521,39.6521
+Movie3SoldOutTime,,21.5274,,,,,(Insufficient),,21.5274,21.5274
+Counter,,,,,,,,,,
+Count,,Value,,,,,,,,
+Record Reneging Movie1 Customers,,,,1.0000,,,,,,
+Record Reneging Movie2 Customers,,,,1.0000,,,,,,
+Record Reneging Movie3 Customers,,,,1.0000,,,,,,
+Replication 7,Start Time:,0.00,Stop Time:,,120.00,Time Units:,Minutes,,,
+Tally,,,,,,,,,,
+Expression,Average,,Half Width,Minimum,Maximum,,,,,
+Movie1SoldOutTime,,22.3903,,,,,(Insufficient),,22.3903,22.3903
+Movie2SoldOutTime,,31.8309,,,,,(Insufficient),,31.8309,31.8309
+Movie3SoldOutTime,,22.1968,,,,,(Insufficient),,22.1968,22.1968
+Counter,,,,,,,,,,
+Count,,Value,,,,,,,,
+Record Reneging Movie1 Customers,,,,1.0000,,,,,,
+Record Reneging Movie2 Customers,,,,3.0000,,,,,,
+Record Reneging Movie3 Customers,,,,1.0000,,,,,,
+Replication 8,Start Time:,0.00,Stop Time:,,120.00,Time Units:,Minutes,,,
+Tally,,,,,,,,,,
+Expression,Average,,Half Width,Minimum,Maximum,,,,,
+Movie1SoldOutTime,,28.1402,,,,,(Insufficient),,28.1402,28.1402
+Movie2SoldOutTime,,26.1796,,,,,(Insufficient),,26.1796,26.1796
+Movie3SoldOutTime,,17.1196,,,,,(Insufficient),,17.1196,17.1196
+Counter,,,,,,,,,,
+Count,,Value,,,,,,,,
+Record Reneging Movie1 Customers,,,,2.0000,,,,,,
+Record Reneging Movie2 Customers,,,,3.0000,,,,,,
+Record Reneging Movie3 Customers,,,,3.0000,,,,,,
+Replication 9,Start Time:,0.00,Stop Time:,,120.00,Time Units:,Minutes,,,
+Tally,,,,,,,,,,
+Expression,Average,,Half Width,Minimum,Maximum,,,,,
+Movie1SoldOutTime,,23.8748,,,,,(Insufficient),,23.8748,23.8748
+Movie2SoldOutTime,,37.8614,,,,,(Insufficient),,37.8614,37.8614
+Movie3SoldOutTime,,24.7898,,,,,(Insufficient),,24.7898,24.7898
+Counter,,,,,,,,,,
+Count,,Value,,,,,,,,
+Record Reneging Movie1 Customers,,,,0,,,,,,
+Record Reneging Movie2 Customers,,,,0,,,,,,
+Record Reneging Movie3 Customers,,,,0,,,,,,
+Model Filename:,C:\Users\Fatih\Desktop\Simulate-a-Local-Cinema\Others\q4,Page,1,of,1,,,,,

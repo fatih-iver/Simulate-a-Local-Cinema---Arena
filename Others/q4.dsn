@@ -9,5 +9,5 @@ MaxScanRows=8
 MaxBufferSize=2048
 FIL=MS Access
 DriverId=281
-DefaultDir=C:\Users\Fatih\Desktop\Simulate-a-Local-Cinema
-DBQ=C:\Users\Fatih\Desktop\Simulate-a-Local-Cinema\q4.accdb
+DefaultDir=C:\Users\Fatih\Desktop\Simulate-a-Local-Cinema\Others
+DBQ=C:\Users\Fatih\Desktop\Simulate-a-Local-Cinema\Others\q4.accdb

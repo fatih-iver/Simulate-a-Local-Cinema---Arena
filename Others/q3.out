@@ -15,16 +15,16 @@ Base Time Units: Minutes
 Identifier                                  Average   Half Width  Minimum    Maximum   Observations
 ___________________________________________________________________________________________________
 
-Movie1SoldOutTime                           62.364     (Insuf)    62.364     62.364          1    
-Movie2SoldOutTime                           75.186     (Insuf)    75.186     75.186          1    
-Movie3SoldOutTime                           104.98     (Insuf)    104.98     104.98          1    
-Moviegoer.VATime                            .00000     (Insuf)    .00000     .00000        100    
-Moviegoer.NVATime                           .00000     (Insuf)    .00000     .00000        100    
-Moviegoer.WaitTime                          1.3783     (Insuf)    .00000     5.3296        100    
-Moviegoer.TranTime                          .00000     (Insuf)    .00000     .00000        100    
-Moviegoer.OtherTime                         .99000     (Insuf)    .00000     1.0000        100    
-Moviegoer.TotalTime                         2.3683     (Insuf)    .45942     6.3296        100    
-Join Counter Queue.Queue.WaitingTime        1.3719     (Insuf)    .00000     5.3296        101    
+Movie1SoldOutTime                           49.000     (Insuf)    49.000     49.000          1    
+Movie2SoldOutTime                           57.000     (Insuf)    57.000     57.000          1    
+Movie3SoldOutTime                           64.000     (Insuf)    64.000     64.000          1    
+Moviegoer.VATime                            .00000     (Insuf)    .00000     .00000        173    
+Moviegoer.NVATime                           .00000     (Insuf)    .00000     .00000        173    
+Moviegoer.WaitTime                          12.210     (Insuf)    .00000     33.593        173    
+Moviegoer.TranTime                          .00000     (Insuf)    .00000     .00000        173    
+Moviegoer.OtherTime                         .69364     (Insuf)    .00000     1.0000        173    
+Moviegoer.TotalTime                         12.904     (Insuf)    1.0000     34.593        173    
+Join Counter Queue.Queue.WaitingTime        12.330     (Insuf)    .00000     33.593        174    
 Seize Counter for Movie Cust.Queue.Waiting      --         --         --         --          0
 
                                      DISCRETE-CHANGE VARIABLES
@@ -32,11 +32,11 @@ Seize Counter for Movie Cust.Queue.Waiting      --         --         --        
 Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
 ___________________________________________________________________________________________________
 
-Moviegoer.WIP                               1.9861     (Insuf)    .00000     7.0000     1.0000    
-counter.NumberBusy                          .83140     (Insuf)    .00000     1.0000     1.0000    
+Moviegoer.WIP                               28.927     (Corr)     .00000     76.000     75.000    
+counter.NumberBusy                          1.0000     (Insuf)    .00000     1.0000     1.0000    
 counter.NumberScheduled                     1.0000     (Insuf)    1.0000     1.0000     1.0000    
-counter.Utilization                         .83140     (Insuf)    .00000     1.0000     1.0000    
-Join Counter Queue.Queue.NumberInQueue      1.1547     (Insuf)    .00000     6.0000     .00000    
+counter.Utilization                         1.0000     (Insuf)    .00000     1.0000     1.0000    
+Join Counter Queue.Queue.NumberInQueue      27.927     (Corr)     .00000     75.000     74.000    
 Seize Counter for Movie Cust.Queue.NumberI  .00000     (Insuf)    .00000     .00000     .00000    
 
                                              COUNTERS
@@ -44,20 +44,20 @@ Seize Counter for Movie Cust.Queue.NumberI  .00000     (Insuf)    .00000     .00
 Identifier                                    Count   Limit
 _____________________________________________________________
 
-Record Reneging Movie3 Customers                  1  Infinite
-Record Reneging Movie2 Customers                  0  Infinite
-Record Reneging Movie1 Customers                  0  Infinite
+Record Reneging Movie3 Customers                  8  Infinite
+Record Reneging Movie2 Customers                  2  Infinite
+Record Reneging Movie1 Customers                 43  Infinite
 
                                              OUTPUTS
 
 Identifier                                   Value
 _____________________________________________________________
 
-Moviegoer.NumberIn                          101.00    
-Moviegoer.NumberOut                         100.00    
-counter.NumberSeized                        100.00    
-counter.ScheduledUtilization                .83140    
-System.NumberOut                            100.00    
+Moviegoer.NumberIn                          248.00    
+Moviegoer.NumberOut                         173.00    
+counter.NumberSeized                        121.00    
+counter.ScheduledUtilization                1.0000    
+System.NumberOut                            173.00    
 
 Beginning replication 2 of 30
 
@@ -78,15 +78,15 @@ Identifier                                  Average   Half Width  Minimum    Max
 ___________________________________________________________________________________________________
 
 Movie1SoldOutTime                           64.000     (Insuf)    64.000     64.000          1    
-Movie2SoldOutTime                           77.587     (Insuf)    77.587     77.587          1    
-Movie3SoldOutTime                           72.587     (Insuf)    72.587     72.587          1    
-Moviegoer.VATime                            .00000     (Insuf)    .00000     .00000        124    
-Moviegoer.NVATime                           .00000     (Insuf)    .00000     .00000        124    
-Moviegoer.WaitTime                          6.1342     (Insuf)    .00000     14.507        124    
-Moviegoer.TranTime                          .00000     (Insuf)    .00000     .00000        124    
-Moviegoer.OtherTime                         .91129     (Insuf)    .00000     1.0000        124    
-Moviegoer.TotalTime                         7.0455     (Insuf)    .16396     15.507        124    
-Join Counter Queue.Queue.WaitingTime        6.1040     (Insuf)    .00000     14.507        125    
+Movie2SoldOutTime                           66.000     (Insuf)    66.000     66.000          1    
+Movie3SoldOutTime                           97.134     (Insuf)    97.134     97.134          1    
+Moviegoer.VATime                            .00000     (Insuf)    .00000     .00000        256    
+Moviegoer.NVATime                           .00000     (Insuf)    .00000     .00000        256    
+Moviegoer.WaitTime                          15.629     (Insuf)    .00000     40.842        256    
+Moviegoer.TranTime                          .00000     (Insuf)    .00000     .00000        256    
+Moviegoer.OtherTime                         .46484     (Insuf)    .00000     1.0000        256    
+Moviegoer.TotalTime                         16.094     (Insuf)    .41123     41.842        256    
+Join Counter Queue.Queue.WaitingTime        15.623     (Insuf)    .00000     40.842        257    
 Seize Counter for Movie Cust.Queue.Waiting      --         --         --         --          0
 
                                      DISCRETE-CHANGE VARIABLES
@@ -94,11 +94,11 @@ Seize Counter for Movie Cust.Queue.Waiting      --         --         --        
 Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
 ___________________________________________________________________________________________________
 
-Moviegoer.WIP                               7.3276     (Insuf)    .00000     16.000     3.0000    
-counter.NumberBusy                          .94573     (Insuf)    .00000     1.0000     1.0000    
+Moviegoer.WIP                               36.487     (Corr)     .00000     88.000     32.000    
+counter.NumberBusy                          .99888     (Insuf)    .00000     1.0000     1.0000    
 counter.NumberScheduled                     1.0000     (Insuf)    1.0000     1.0000     1.0000    
-counter.Utilization                         .94573     (Insuf)    .00000     1.0000     1.0000    
-Join Counter Queue.Queue.NumberInQueue      6.3819     (Insuf)    .00000     15.000     2.0000    
+counter.Utilization                         .99888     (Insuf)    .00000     1.0000     1.0000    
+Join Counter Queue.Queue.NumberInQueue      35.488     (Corr)     .00000     87.000     31.000    
 Seize Counter for Movie Cust.Queue.NumberI  .00000     (Insuf)    .00000     .00000     .00000    
 
                                              COUNTERS
@@ -106,20 +106,20 @@ Seize Counter for Movie Cust.Queue.NumberI  .00000     (Insuf)    .00000     .00
 Identifier                                    Count   Limit
 _____________________________________________________________
 
-Record Reneging Movie3 Customers                  0  Infinite
-Record Reneging Movie2 Customers                  0  Infinite
-Record Reneging Movie1 Customers                 11  Infinite
+Record Reneging Movie3 Customers                 47  Infinite
+Record Reneging Movie2 Customers                  5  Infinite
+Record Reneging Movie1 Customers                 85  Infinite
 
                                              OUTPUTS
 
 Identifier                                   Value
 _____________________________________________________________
 
-Moviegoer.NumberIn                          127.00    
-Moviegoer.NumberOut                         124.00    
-counter.NumberSeized                        114.00    
-counter.ScheduledUtilization                .94573    
-System.NumberOut                            124.00    
+Moviegoer.NumberIn                          288.00    
+Moviegoer.NumberOut                         256.00    
+counter.NumberSeized                        120.00    
+counter.ScheduledUtilization                .99888    
+System.NumberOut                            256.00    
 
 Beginning replication 3 of 30
 
@@ -139,16 +139,16 @@ Base Time Units: Minutes
 Identifier                                  Average   Half Width  Minimum    Maximum   Observations
 ___________________________________________________________________________________________________
 
-Movie1SoldOutTime                           70.572     (Insuf)    70.572     70.572          1    
-Movie2SoldOutTime                           78.920     (Insuf)    78.920     78.920          1    
-Movie3SoldOutTime                           62.572     (Insuf)    62.572     62.572          1    
-Moviegoer.VATime                            .00000     (Insuf)    .00000     .00000        124    
-Moviegoer.NVATime                           .00000     (Insuf)    .00000     .00000        124    
-Moviegoer.WaitTime                          2.5821     (Insuf)    .00000     10.202        124    
-Moviegoer.TranTime                          .00000     (Insuf)    .00000     .00000        124    
-Moviegoer.OtherTime                         .89516     (Insuf)    .00000     1.0000        124    
-Moviegoer.TotalTime                         3.4773     (Insuf)    1.0000     11.202        124    
-Join Counter Queue.Queue.WaitingTime        2.5681     (Insuf)    .00000     10.202        125    
+Movie1SoldOutTime                           63.000     (Insuf)    63.000     63.000          1    
+Movie2SoldOutTime                           67.000     (Insuf)    67.000     67.000          1    
+Movie3SoldOutTime                           61.000     (Insuf)    61.000     61.000          1    
+Moviegoer.VATime                            .00000     (Insuf)    .00000     .00000        210    
+Moviegoer.NVATime                           .00000     (Insuf)    .00000     .00000        210    
+Moviegoer.WaitTime                          16.609     (Insuf)    .00000     36.754        210    
+Moviegoer.TranTime                          .00000     (Insuf)    .00000     .00000        210    
+Moviegoer.OtherTime                         .57143     (Insuf)    .00000     1.0000        210    
+Moviegoer.TotalTime                         17.180     (Insuf)    .17434     37.074        210    
+Join Counter Queue.Queue.WaitingTime        16.651     (Insuf)    .00000     36.754        211    
 Seize Counter for Movie Cust.Queue.Waiting      --         --         --         --          0
 
                                      DISCRETE-CHANGE VARIABLES
@@ -156,11 +156,11 @@ Seize Counter for Movie Cust.Queue.Waiting      --         --         --        
 Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
 ___________________________________________________________________________________________________
 
-Moviegoer.WIP                               3.6035     (Insuf)    .00000     14.000     1.0000    
-counter.NumberBusy                          .92838     (Insuf)    .00000     1.0000     1.0000    
+Moviegoer.WIP                               36.305     (Corr)     .00000     84.000     58.000    
+counter.NumberBusy                          1.0000     (Insuf)    .00000     1.0000     1.0000    
 counter.NumberScheduled                     1.0000     (Insuf)    1.0000     1.0000     1.0000    
-counter.Utilization                         .92838     (Insuf)    .00000     1.0000     1.0000    
-Join Counter Queue.Queue.NumberInQueue      2.6751     (Insuf)    .00000     13.000     .00000    
+counter.Utilization                         1.0000     (Insuf)    .00000     1.0000     1.0000    
+Join Counter Queue.Queue.NumberInQueue      35.305     (Corr)     .00000     83.000     57.000    
 Seize Counter for Movie Cust.Queue.NumberI  .00000     (Insuf)    .00000     .00000     .00000    
 
                                              COUNTERS
@@ -168,20 +168,20 @@ Seize Counter for Movie Cust.Queue.NumberI  .00000     (Insuf)    .00000     .00
 Identifier                                    Count   Limit
 _____________________________________________________________
 
-Record Reneging Movie3 Customers                 11  Infinite
-Record Reneging Movie2 Customers                  2  Infinite
-Record Reneging Movie1 Customers                  0  Infinite
+Record Reneging Movie3 Customers                 77  Infinite
+Record Reneging Movie2 Customers                  0  Infinite
+Record Reneging Movie1 Customers                 13  Infinite
 
                                              OUTPUTS
 
 Identifier                                   Value
 _____________________________________________________________
 
-Moviegoer.NumberIn                          125.00    
-Moviegoer.NumberOut                         124.00    
-counter.NumberSeized                        112.00    
-counter.ScheduledUtilization                .92838    
-System.NumberOut                            124.00    
+Moviegoer.NumberIn                          268.00    
+Moviegoer.NumberOut                         210.00    
+counter.NumberSeized                        121.00    
+counter.ScheduledUtilization                1.0000    
+System.NumberOut                            210.00    
 
 Beginning replication 4 of 30
 
@@ -201,16 +201,16 @@ Base Time Units: Minutes
 Identifier                                  Average   Half Width  Minimum    Maximum   Observations
 ___________________________________________________________________________________________________
 
-Movie1SoldOutTime                           57.069     (Insuf)    57.069     57.069          1    
-Movie2SoldOutTime                           73.497     (Insuf)    73.497     73.497          1    
-Movie3SoldOutTime                           50.938     (Insuf)    50.938     50.938          1    
-Moviegoer.VATime                            .00000     (Insuf)    .00000     .00000        122    
-Moviegoer.NVATime                           .00000     (Insuf)    .00000     .00000        122    
-Moviegoer.WaitTime                          3.5017     (Insuf)    .00000     13.205        122    
-Moviegoer.TranTime                          .00000     (Insuf)    .00000     .00000        122    
-Moviegoer.OtherTime                         .93443     (Insuf)    .00000     1.0000        122    
-Moviegoer.TotalTime                         4.4361     (Insuf)    .05522     14.205        122    
-Join Counter Queue.Queue.WaitingTime        3.5771     (Insuf)    .00000     13.205        123    
+Movie1SoldOutTime                           62.000     (Insuf)    62.000     62.000          1    
+Movie2SoldOutTime                           68.000     (Insuf)    68.000     68.000          1    
+Movie3SoldOutTime                           49.000     (Insuf)    49.000     49.000          1    
+Moviegoer.VATime                            .00000     (Insuf)    .00000     .00000        213    
+Moviegoer.NVATime                           .00000     (Insuf)    .00000     .00000        213    
+Moviegoer.WaitTime                          12.022     (Insuf)    .00000     28.724        213    
+Moviegoer.TranTime                          .00000     (Insuf)    .00000     .00000        213    
+Moviegoer.OtherTime                         .56338     (Insuf)    .00000     1.0000        213    
+Moviegoer.TotalTime                         12.585     (Insuf)    1.0000     29.724        213    
+Join Counter Queue.Queue.WaitingTime        12.103     (Insuf)    .00000     29.515        214    
 Seize Counter for Movie Cust.Queue.Waiting      --         --         --         --          0
 
                                      DISCRETE-CHANGE VARIABLES
@@ -218,11 +218,11 @@ Seize Counter for Movie Cust.Queue.Waiting      --         --         --        
 Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
 ___________________________________________________________________________________________________
 
-Moviegoer.WIP                               5.0770     (Insuf)    .00000     15.000     13.000    
-counter.NumberBusy                          .95426     (Insuf)    .00000     1.0000     1.0000    
+Moviegoer.WIP                               32.168     (Corr)     .00000     84.000     83.000    
+counter.NumberBusy                          1.0000     (Insuf)    .00000     1.0000     1.0000    
 counter.NumberScheduled                     1.0000     (Insuf)    1.0000     1.0000     1.0000    
-counter.Utilization                         .95426     (Insuf)    .00000     1.0000     1.0000    
-Join Counter Queue.Queue.NumberInQueue      4.1227     (Insuf)    .00000     14.000     12.000    
+counter.Utilization                         1.0000     (Insuf)    .00000     1.0000     1.0000    
+Join Counter Queue.Queue.NumberInQueue      31.168     (Corr)     .00000     83.000     82.000    
 Seize Counter for Movie Cust.Queue.NumberI  .00000     (Insuf)    .00000     .00000     .00000    
 
                                              COUNTERS
@@ -230,20 +230,20 @@ Seize Counter for Movie Cust.Queue.NumberI  .00000     (Insuf)    .00000     .00
 Identifier                                    Count   Limit
 _____________________________________________________________
 
-Record Reneging Movie3 Customers                  8  Infinite
-Record Reneging Movie2 Customers                  0  Infinite
-Record Reneging Movie1 Customers                  0  Infinite
+Record Reneging Movie3 Customers                 74  Infinite
+Record Reneging Movie2 Customers                  5  Infinite
+Record Reneging Movie1 Customers                 14  Infinite
 
                                              OUTPUTS
 
 Identifier                                   Value
 _____________________________________________________________
 
-Moviegoer.NumberIn                          135.00    
-Moviegoer.NumberOut                         122.00    
-counter.NumberSeized                        115.00    
-counter.ScheduledUtilization                .95426    
-System.NumberOut                            122.00    
+Moviegoer.NumberIn                          296.00    
+Moviegoer.NumberOut                         213.00    
+counter.NumberSeized                        121.00    
+counter.ScheduledUtilization                1.0000    
+System.NumberOut                            213.00    
 
 Beginning replication 5 of 30
 
@@ -263,16 +263,16 @@ Base Time Units: Minutes
 Identifier                                  Average   Half Width  Minimum    Maximum   Observations
 ___________________________________________________________________________________________________
 
-Movie1SoldOutTime                           54.789     (Insuf)    54.789     54.789          1    
-Movie2SoldOutTime                           58.789     (Insuf)    58.789     58.789          1    
-Movie3SoldOutTime                           74.527     (Insuf)    74.527     74.527          1    
-Moviegoer.VATime                            .00000     (Insuf)    .00000     .00000        127    
-Moviegoer.NVATime                           .00000     (Insuf)    .00000     .00000        127    
-Moviegoer.WaitTime                          4.0387     (Insuf)    .00000     9.5337        127    
-Moviegoer.TranTime                          .00000     (Insuf)    .00000     .00000        127    
-Moviegoer.OtherTime                         .90551     (Insuf)    .00000     1.0000        127    
-Moviegoer.TotalTime                         4.9442     (Insuf)    .70644     10.533        127    
-Join Counter Queue.Queue.WaitingTime        4.0455     (Insuf)    .00000     9.5337        128    
+Movie1SoldOutTime                           52.000     (Insuf)    52.000     52.000          1    
+Movie2SoldOutTime                           59.000     (Insuf)    59.000     59.000          1    
+Movie3SoldOutTime                           70.000     (Insuf)    70.000     70.000          1    
+Moviegoer.VATime                            .00000     (Insuf)    .00000     .00000        221    
+Moviegoer.NVATime                           .00000     (Insuf)    .00000     .00000        221    
+Moviegoer.WaitTime                          13.861     (Insuf)    .00000     31.346        221    
+Moviegoer.TranTime                          .00000     (Insuf)    .00000     .00000        221    
+Moviegoer.OtherTime                         .54299     (Insuf)    .00000     1.0000        221    
+Moviegoer.TotalTime                         14.404     (Insuf)    .36548     32.346        221    
+Join Counter Queue.Queue.WaitingTime        13.935     (Insuf)    .00000     31.346        222    
 Seize Counter for Movie Cust.Queue.Waiting      --         --         --         --          0
 
                                      DISCRETE-CHANGE VARIABLES
@@ -280,11 +280,11 @@ Seize Counter for Movie Cust.Queue.Waiting      --         --         --        
 Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
 ___________________________________________________________________________________________________
 
-Moviegoer.WIP                               5.5126     (Insuf)    .00000     13.000     11.000    
-counter.NumberBusy                          .96227     (Insuf)    .00000     1.0000     1.0000    
+Moviegoer.WIP                               35.360     (Corr)     .00000     82.000     66.000    
+counter.NumberBusy                          1.0000     (Insuf)    .00000     1.0000     1.0000    
 counter.NumberScheduled                     1.0000     (Insuf)    1.0000     1.0000     1.0000    
-counter.Utilization                         .96227     (Insuf)    .00000     1.0000     1.0000    
-Join Counter Queue.Queue.NumberInQueue      4.5504     (Insuf)    .00000     12.000     10.000    
+counter.Utilization                         1.0000     (Insuf)    .00000     1.0000     1.0000    
+Join Counter Queue.Queue.NumberInQueue      34.360     (Corr)     .00000     81.000     65.000    
 Seize Counter for Movie Cust.Queue.NumberI  .00000     (Insuf)    .00000     .00000     .00000    
 
                                              COUNTERS
@@ -292,20 +292,20 @@ Seize Counter for Movie Cust.Queue.NumberI  .00000     (Insuf)    .00000     .00
 Identifier                                    Count   Limit
 _____________________________________________________________
 
-Record Reneging Movie3 Customers                  0  Infinite
-Record Reneging Movie2 Customers                 10  Infinite
-Record Reneging Movie1 Customers                  2  Infinite
+Record Reneging Movie3 Customers                 14  Infinite
+Record Reneging Movie2 Customers                  7  Infinite
+Record Reneging Movie1 Customers                 80  Infinite
 
                                              OUTPUTS
 
 Identifier                                   Value
 _____________________________________________________________
 
-Moviegoer.NumberIn                          138.00    
-Moviegoer.NumberOut                         127.00    
-counter.NumberSeized                        116.00    
-counter.ScheduledUtilization                .96227    
-System.NumberOut                            127.00    
+Moviegoer.NumberIn                          287.00    
+Moviegoer.NumberOut                         221.00    
+counter.NumberSeized                        121.00    
+counter.ScheduledUtilization                1.0000    
+System.NumberOut                            221.00    
 
 Beginning replication 6 of 30
 
@@ -325,16 +325,16 @@ Base Time Units: Minutes
 Identifier                                  Average   Half Width  Minimum    Maximum   Observations
 ___________________________________________________________________________________________________
 
-Movie1SoldOutTime                           54.827     (Insuf)    54.827     54.827          1    
-Movie2SoldOutTime                           89.788     (Insuf)    89.788     89.788          1    
-Movie3SoldOutTime                           50.332     (Insuf)    50.332     50.332          1    
-Moviegoer.VATime                            .00000     (Insuf)    .00000     .00000        116    
-Moviegoer.NVATime                           .00000     (Insuf)    .00000     .00000        116    
-Moviegoer.WaitTime                          2.9524     (Insuf)    .00000     13.032        116    
-Moviegoer.TranTime                          .00000     (Insuf)    .00000     .00000        116    
-Moviegoer.OtherTime                         .96552     (Insuf)    .00000     1.0000        116    
-Moviegoer.TotalTime                         3.9179     (Insuf)    1.0000     14.032        116    
-Join Counter Queue.Queue.WaitingTime        3.0361     (Insuf)    .00000     13.032        117    
+Movie1SoldOutTime                           56.000     (Insuf)    56.000     56.000          1    
+Movie2SoldOutTime                           80.000     (Insuf)    80.000     80.000          1    
+Movie3SoldOutTime                           47.000     (Insuf)    47.000     47.000          1    
+Moviegoer.VATime                            .00000     (Insuf)    .00000     .00000        238    
+Moviegoer.NVATime                           .00000     (Insuf)    .00000     .00000        238    
+Moviegoer.WaitTime                          10.575     (Insuf)    .00000     26.075        238    
+Moviegoer.TranTime                          .00000     (Insuf)    .00000     .00000        238    
+Moviegoer.OtherTime                         .49580     (Insuf)    .00000     1.0000        238    
+Moviegoer.TotalTime                         11.070     (Insuf)    .05059     26.472        238    
+Join Counter Queue.Queue.WaitingTime        10.641     (Insuf)    .00000     26.376        239    
 Seize Counter for Movie Cust.Queue.Waiting      --         --         --         --          0
 
                                      DISCRETE-CHANGE VARIABLES
@@ -342,11 +342,11 @@ Seize Counter for Movie Cust.Queue.Waiting      --         --         --        
 Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
 ___________________________________________________________________________________________________
 
-Moviegoer.WIP                               4.6307     (Insuf)    .00000     17.000     14.000    
-counter.NumberBusy                          .93510     (Insuf)    .00000     1.0000     1.0000    
+Moviegoer.WIP                               30.348     (Corr)     .00000     71.000     69.000    
+counter.NumberBusy                          .98704     (Insuf)    .00000     1.0000     1.0000    
 counter.NumberScheduled                     1.0000     (Insuf)    1.0000     1.0000     1.0000    
-counter.Utilization                         .93510     (Insuf)    .00000     1.0000     1.0000    
-Join Counter Queue.Queue.NumberInQueue      3.6956     (Insuf)    .00000     16.000     13.000    
+counter.Utilization                         .98704     (Insuf)    .00000     1.0000     1.0000    
+Join Counter Queue.Queue.NumberInQueue      29.361     (Corr)     .00000     70.000     68.000    
 Seize Counter for Movie Cust.Queue.NumberI  .00000     (Insuf)    .00000     .00000     .00000    
 
                                              COUNTERS
@@ -354,20 +354,20 @@ Seize Counter for Movie Cust.Queue.NumberI  .00000     (Insuf)    .00000     .00
 Identifier                                    Count   Limit
 _____________________________________________________________
 
-Record Reneging Movie3 Customers                  1  Infinite
-Record Reneging Movie2 Customers                  2  Infinite
-Record Reneging Movie1 Customers                  1  Infinite
+Record Reneging Movie3 Customers                 65  Infinite
+Record Reneging Movie2 Customers                 43  Infinite
+Record Reneging Movie1 Customers                 12  Infinite
 
                                              OUTPUTS
 
 Identifier                                   Value
 _____________________________________________________________
 
-Moviegoer.NumberIn                          130.00    
-Moviegoer.NumberOut                         116.00    
-counter.NumberSeized                        113.00    
-counter.ScheduledUtilization                .93510    
-System.NumberOut                            116.00    
+Moviegoer.NumberIn                          307.00    
+Moviegoer.NumberOut                         238.00    
+counter.NumberSeized                        119.00    
+counter.ScheduledUtilization                .98704    
+System.NumberOut                            238.00    
 
 Beginning replication 7 of 30
 
@@ -387,16 +387,16 @@ Base Time Units: Minutes
 Identifier                                  Average   Half Width  Minimum    Maximum   Observations
 ___________________________________________________________________________________________________
 
-Movie1SoldOutTime                           51.862     (Insuf)    51.862     51.862          1    
-Movie2SoldOutTime                           77.862     (Insuf)    77.862     77.862          1    
-Movie3SoldOutTime                           49.862     (Insuf)    49.862     49.862          1    
-Moviegoer.VATime                            .00000     (Insuf)    .00000     .00000        126    
-Moviegoer.NVATime                           .00000     (Insuf)    .00000     .00000        126    
-Moviegoer.WaitTime                          3.6790     (Insuf)    .00000     10.770        126    
-Moviegoer.TranTime                          .00000     (Insuf)    .00000     .00000        126    
-Moviegoer.OtherTime                         .88889     (Insuf)    .00000     1.0000        126    
-Moviegoer.TotalTime                         4.5679     (Insuf)    1.0000     11.770        126    
-Join Counter Queue.Queue.WaitingTime        3.6622     (Insuf)    .00000     10.770        127    
+Movie1SoldOutTime                           54.000     (Insuf)    54.000     54.000          1    
+Movie2SoldOutTime                           80.000     (Insuf)    80.000     80.000          1    
+Movie3SoldOutTime                           45.000     (Insuf)    45.000     45.000          1    
+Moviegoer.VATime                            .00000     (Insuf)    .00000     .00000        235    
+Moviegoer.NVATime                           .00000     (Insuf)    .00000     .00000        235    
+Moviegoer.WaitTime                          11.690     (Insuf)    .00000     26.093        235    
+Moviegoer.TranTime                          .00000     (Insuf)    .00000     .00000        235    
+Moviegoer.OtherTime                         .51064     (Insuf)    .00000     1.0000        235    
+Moviegoer.TotalTime                         12.200     (Insuf)    1.0000     26.892        235    
+Join Counter Queue.Queue.WaitingTime        11.716     (Insuf)    .00000     26.093        236    
 Seize Counter for Movie Cust.Queue.Waiting      --         --         --         --          0
 
                                      DISCRETE-CHANGE VARIABLES
@@ -404,11 +404,11 @@ Seize Counter for Movie Cust.Queue.Waiting      --         --         --        
 Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
 ___________________________________________________________________________________________________
 
-Moviegoer.WIP                               4.8118     (Insuf)    .00000     12.000     1.0000    
-counter.NumberBusy                          .93603     (Insuf)    .00000     1.0000     1.0000    
+Moviegoer.WIP                               27.471     (Corr)     .00000     67.000     50.000    
+counter.NumberBusy                          1.0000     (Insuf)    .00000     1.0000     1.0000    
 counter.NumberScheduled                     1.0000     (Insuf)    1.0000     1.0000     1.0000    
-counter.Utilization                         .93603     (Insuf)    .00000     1.0000     1.0000    
-Join Counter Queue.Queue.NumberInQueue      3.8758     (Insuf)    .00000     11.000     .00000    
+counter.Utilization                         1.0000     (Insuf)    .00000     1.0000     1.0000    
+Join Counter Queue.Queue.NumberInQueue      26.471     (Corr)     .00000     66.000     49.000    
 Seize Counter for Movie Cust.Queue.NumberI  .00000     (Insuf)    .00000     .00000     .00000    
 
                                              COUNTERS
@@ -416,20 +416,20 @@ Seize Counter for Movie Cust.Queue.NumberI  .00000     (Insuf)    .00000     .00
 Identifier                                    Count   Limit
 _____________________________________________________________
 
-Record Reneging Movie3 Customers                  7  Infinite
-Record Reneging Movie2 Customers                  7  Infinite
-Record Reneging Movie1 Customers                  0  Infinite
+Record Reneging Movie3 Customers                 60  Infinite
+Record Reneging Movie2 Customers                 45  Infinite
+Record Reneging Movie1 Customers                 10  Infinite
 
                                              OUTPUTS
 
 Identifier                                   Value
 _____________________________________________________________
 
-Moviegoer.NumberIn                          127.00    
-Moviegoer.NumberOut                         126.00    
-counter.NumberSeized                        113.00    
-counter.ScheduledUtilization                .93603    
-System.NumberOut                            126.00    
+Moviegoer.NumberIn                          285.00    
+Moviegoer.NumberOut                         235.00    
+counter.NumberSeized                        121.00    
+counter.ScheduledUtilization                1.0000    
+System.NumberOut                            235.00    
 
 Beginning replication 8 of 30
 
@@ -449,16 +449,16 @@ Base Time Units: Minutes
 Identifier                                  Average   Half Width  Minimum    Maximum   Observations
 ___________________________________________________________________________________________________
 
-Movie1SoldOutTime                           75.927     (Insuf)    75.927     75.927          1    
-Movie2SoldOutTime                           61.684     (Insuf)    61.684     61.684          1    
-Movie3SoldOutTime                           31.234     (Insuf)    31.234     31.234          1    
-Moviegoer.VATime                            .00000     (Insuf)    .00000     .00000        128    
-Moviegoer.NVATime                           .00000     (Insuf)    .00000     .00000        128    
-Moviegoer.WaitTime                          4.6410     (Insuf)    .00000     14.452        128    
-Moviegoer.TranTime                          .00000     (Insuf)    .00000     .00000        128    
-Moviegoer.OtherTime                         .91406     (Insuf)    .00000     1.0000        128    
-Moviegoer.TotalTime                         5.5551     (Insuf)    1.0000     15.452        128    
-Join Counter Queue.Queue.WaitingTime        4.7029     (Insuf)    .00000     14.452        129    
+Movie1SoldOutTime                           87.000     (Insuf)    87.000     87.000          1    
+Movie2SoldOutTime                           108.00     (Insuf)    108.00     108.00          1    
+Movie3SoldOutTime                           31.000     (Insuf)    31.000     31.000          1    
+Moviegoer.VATime                            .00000     (Insuf)    .00000     .00000        276    
+Moviegoer.NVATime                           .00000     (Insuf)    .00000     .00000        276    
+Moviegoer.WaitTime                          13.302     (Insuf)    .00000     37.467        276    
+Moviegoer.TranTime                          .00000     (Insuf)    .00000     .00000        276    
+Moviegoer.OtherTime                         .43478     (Insuf)    .00000     1.0000        276    
+Moviegoer.TotalTime                         13.737     (Insuf)    .30925     37.521        276    
+Join Counter Queue.Queue.WaitingTime        13.284     (Insuf)    .00000     37.467        277    
 Seize Counter for Movie Cust.Queue.Waiting      --         --         --         --          0
 
                                      DISCRETE-CHANGE VARIABLES
@@ -466,11 +466,11 @@ Seize Counter for Movie Cust.Queue.Waiting      --         --         --        
 Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
 ___________________________________________________________________________________________________
 
-Moviegoer.WIP                               6.9022     (Insuf)    .00000     17.000     16.000    
-counter.NumberBusy                          .98105     (Insuf)    .00000     1.0000     1.0000    
+Moviegoer.WIP                               32.316     (Corr)     .00000     82.000     19.000    
+counter.NumberBusy                          1.0000     (Insuf)    .00000     1.0000     1.0000    
 counter.NumberScheduled                     1.0000     (Insuf)    1.0000     1.0000     1.0000    
-counter.Utilization                         .98105     (Insuf)    .00000     1.0000     1.0000    
-Join Counter Queue.Queue.NumberInQueue      5.9211     (Insuf)    .00000     16.000     15.000    
+counter.Utilization                         1.0000     (Insuf)    .00000     1.0000     1.0000    
+Join Counter Queue.Queue.NumberInQueue      31.316     (Corr)     .00000     81.000     18.000    
 Seize Counter for Movie Cust.Queue.NumberI  .00000     (Insuf)    .00000     .00000     .00000    
 
                                              COUNTERS
@@ -478,20 +478,20 @@ Seize Counter for Movie Cust.Queue.NumberI  .00000     (Insuf)    .00000     .00
 Identifier                                    Count   Limit
 _____________________________________________________________
 
-Record Reneging Movie3 Customers                  4  Infinite
-Record Reneging Movie2 Customers                  7  Infinite
-Record Reneging Movie1 Customers                  0  Infinite
+Record Reneging Movie3 Customers                 48  Infinite
+Record Reneging Movie2 Customers                 31  Infinite
+Record Reneging Movie1 Customers                 77  Infinite
 
                                              OUTPUTS
 
 Identifier                                   Value
 _____________________________________________________________
 
-Moviegoer.NumberIn                          144.00    
-Moviegoer.NumberOut                         128.00    
-counter.NumberSeized                        118.00    
-counter.ScheduledUtilization                .98105    
-System.NumberOut                            128.00    
+Moviegoer.NumberIn                          295.00    
+Moviegoer.NumberOut                         276.00    
+counter.NumberSeized                        121.00    
+counter.ScheduledUtilization                1.0000    
+System.NumberOut                            276.00    
 
 Beginning replication 9 of 30
 
@@ -511,16 +511,16 @@ Base Time Units: Minutes
 Identifier                                  Average   Half Width  Minimum    Maximum   Observations
 ___________________________________________________________________________________________________
 
-Movie1SoldOutTime                           59.782     (Insuf)    59.782     59.782          1    
-Movie2SoldOutTime                           81.527     (Insuf)    81.527     81.527          1    
-Movie3SoldOutTime                           58.782     (Insuf)    58.782     58.782          1    
-Moviegoer.VATime                            .00000     (Insuf)    .00000     .00000        120    
-Moviegoer.NVATime                           .00000     (Insuf)    .00000     .00000        120    
-Moviegoer.WaitTime                          6.5188     (Insuf)    .00000     15.847        120    
-Moviegoer.TranTime                          .00000     (Insuf)    .00000     .00000        120    
-Moviegoer.OtherTime                         .95000     (Insuf)    .00000     1.0000        120    
-Moviegoer.TotalTime                         7.4688     (Insuf)    1.0000     16.847        120    
-Join Counter Queue.Queue.WaitingTime        6.5267     (Insuf)    .00000     15.847        121    
+Movie1SoldOutTime                           80.000     (Insuf)    80.000     80.000          1    
+Movie2SoldOutTime                           68.000     (Insuf)    68.000     68.000          1    
+Movie3SoldOutTime                           58.000     (Insuf)    58.000     58.000          1    
+Moviegoer.VATime                            .00000     (Insuf)    .00000     .00000        243    
+Moviegoer.NVATime                           .00000     (Insuf)    .00000     .00000        243    
+Moviegoer.WaitTime                          13.194     (Insuf)    .00000     36.117        243    
+Moviegoer.TranTime                          .00000     (Insuf)    .00000     .00000        243    
+Moviegoer.OtherTime                         .48971     (Insuf)    .00000     1.0000        243    
+Moviegoer.TotalTime                         13.684     (Insuf)    .02206     37.117        243    
+Join Counter Queue.Queue.WaitingTime        13.224     (Insuf)    .00000     36.117        244    
 Seize Counter for Movie Cust.Queue.Waiting      --         --         --         --          0
 
                                      DISCRETE-CHANGE VARIABLES
@@ -528,11 +528,11 @@ Seize Counter for Movie Cust.Queue.Waiting      --         --         --        
 Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
 ___________________________________________________________________________________________________
 
-Moviegoer.WIP                               7.8300     (Insuf)    .00000     17.000     9.0000    
-counter.NumberBusy                          .95831     (Insuf)    .00000     1.0000     1.0000    
+Moviegoer.WIP                               32.916     (Corr)     .00000     87.000     57.000    
+counter.NumberBusy                          .99478     (Insuf)    .00000     1.0000     1.0000    
 counter.NumberScheduled                     1.0000     (Insuf)    1.0000     1.0000     1.0000    
-counter.Utilization                         .95831     (Insuf)    .00000     1.0000     1.0000    
-Join Counter Queue.Queue.NumberInQueue      6.8717     (Insuf)    .00000     16.000     8.0000    
+counter.Utilization                         .99478     (Insuf)    .00000     1.0000     1.0000    
+Join Counter Queue.Queue.NumberInQueue      31.921     (Corr)     .00000     86.000     56.000    
 Seize Counter for Movie Cust.Queue.NumberI  .00000     (Insuf)    .00000     .00000     .00000    
 
                                              COUNTERS
@@ -540,20 +540,20 @@ Seize Counter for Movie Cust.Queue.NumberI  .00000     (Insuf)    .00000     .00
 Identifier                                    Count   Limit
 _____________________________________________________________
 
-Record Reneging Movie3 Customers                  0  Infinite
-Record Reneging Movie2 Customers                  1  Infinite
-Record Reneging Movie1 Customers                  5  Infinite
+Record Reneging Movie3 Customers                 85  Infinite
+Record Reneging Movie2 Customers                 21  Infinite
+Record Reneging Movie1 Customers                 18  Infinite
 
                                              OUTPUTS
 
 Identifier                                   Value
 _____________________________________________________________
 
-Moviegoer.NumberIn                          129.00    
-Moviegoer.NumberOut                         120.00    
-counter.NumberSeized                        115.00    
-counter.ScheduledUtilization                .95831    
-System.NumberOut                            120.00    
+Moviegoer.NumberIn                          300.00    
+Moviegoer.NumberOut                         243.00    
+counter.NumberSeized                        120.00    
+counter.ScheduledUtilization                .99478    
+System.NumberOut                            243.00    
 
 Beginning replication 10 of 30
 
@@ -573,16 +573,16 @@ Base Time Units: Minutes
 Identifier                                  Average   Half Width  Minimum    Maximum   Observations
 ___________________________________________________________________________________________________
 
-Movie1SoldOutTime                           70.992     (Insuf)    70.992     70.992          1    
-Movie2SoldOutTime                           62.620     (Insuf)    62.620     62.620          1    
-Movie3SoldOutTime                           82.992     (Insuf)    82.992     82.992          1    
-Moviegoer.VATime                            .00000     (Insuf)    .00000     .00000        131    
-Moviegoer.NVATime                           .00000     (Insuf)    .00000     .00000        131    
-Moviegoer.WaitTime                          3.9073     (Insuf)    .00000     11.214        131    
-Moviegoer.TranTime                          .00000     (Insuf)    .00000     .00000        131    
-Moviegoer.OtherTime                         .87786     (Insuf)    .00000     1.0000        131    
-Moviegoer.TotalTime                         4.7851     (Insuf)    .31924     12.214        131    
-Join Counter Queue.Queue.WaitingTime        3.9073     (Insuf)    .00000     11.214        132    
+Movie1SoldOutTime                           73.000     (Insuf)    73.000     73.000          1    
+Movie2SoldOutTime                           59.000     (Insuf)    59.000     59.000          1    
+Movie3SoldOutTime                           90.122     (Insuf)    90.122     90.122          1    
+Moviegoer.VATime                            .00000     (Insuf)    .00000     .00000        245    
+Moviegoer.NVATime                           .00000     (Insuf)    .00000     .00000        245    
+Moviegoer.WaitTime                          13.337     (Insuf)    .00000     36.052        245    
+Moviegoer.TranTime                          .00000     (Insuf)    .00000     .00000        245    
+Moviegoer.OtherTime                         .48571     (Insuf)    .00000     1.0000        245    
+Moviegoer.TotalTime                         13.823     (Insuf)    1.0000     36.225        245    
+Join Counter Queue.Queue.WaitingTime        13.348     (Insuf)    .00000     36.052        246    
 Seize Counter for Movie Cust.Queue.Waiting      --         --         --         --          0
 
                                      DISCRETE-CHANGE VARIABLES
@@ -590,11 +590,11 @@ Seize Counter for Movie Cust.Queue.Waiting      --         --         --        
 Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
 ___________________________________________________________________________________________________
 
-Moviegoer.WIP                               5.3016     (Insuf)    .00000     15.000     3.0000    
-counter.NumberBusy                          .95947     (Insuf)    .00000     1.0000     1.0000    
+Moviegoer.WIP                               31.378     (Corr)     .00000     93.000     47.000    
+counter.NumberBusy                          .99898     (Insuf)    .00000     1.0000     1.0000    
 counter.NumberScheduled                     1.0000     (Insuf)    1.0000     1.0000     1.0000    
-counter.Utilization                         .95947     (Insuf)    .00000     1.0000     1.0000    
-Join Counter Queue.Queue.NumberInQueue      4.3421     (Insuf)    .00000     14.000     2.0000    
+counter.Utilization                         .99898     (Insuf)    .00000     1.0000     1.0000    
+Join Counter Queue.Queue.NumberInQueue      30.379     (Corr)     .00000     92.000     46.000    
 Seize Counter for Movie Cust.Queue.NumberI  .00000     (Insuf)    .00000     .00000     .00000    
 
                                              COUNTERS
@@ -602,20 +602,20 @@ Seize Counter for Movie Cust.Queue.NumberI  .00000     (Insuf)    .00000     .00
 Identifier                                    Count   Limit
 _____________________________________________________________
 
-Record Reneging Movie3 Customers                  1  Infinite
-Record Reneging Movie2 Customers                 10  Infinite
-Record Reneging Movie1 Customers                  5  Infinite
+Record Reneging Movie3 Customers                 20  Infinite
+Record Reneging Movie2 Customers                 86  Infinite
+Record Reneging Movie1 Customers                 20  Infinite
 
                                              OUTPUTS
 
 Identifier                                   Value
 _____________________________________________________________
 
-Moviegoer.NumberIn                          134.00    
-Moviegoer.NumberOut                         131.00    
-counter.NumberSeized                        116.00    
-counter.ScheduledUtilization                .95947    
-System.NumberOut                            131.00    
+Moviegoer.NumberIn                          292.00    
+Moviegoer.NumberOut                         245.00    
+counter.NumberSeized                        120.00    
+counter.ScheduledUtilization                .99898    
+System.NumberOut                            245.00    
 
 Beginning replication 11 of 30
 
@@ -635,16 +635,16 @@ Base Time Units: Minutes
 Identifier                                  Average   Half Width  Minimum    Maximum   Observations
 ___________________________________________________________________________________________________
 
-Movie1SoldOutTime                           59.032     (Insuf)    59.032     59.032          1    
-Movie2SoldOutTime                           85.913     (Insuf)    85.913     85.913          1    
-Movie3SoldOutTime                           64.221     (Insuf)    64.221     64.221          1    
-Moviegoer.VATime                            .00000     (Insuf)    .00000     .00000        125    
-Moviegoer.NVATime                           .00000     (Insuf)    .00000     .00000        125    
-Moviegoer.WaitTime                          2.6731     (Insuf)    .00000     9.3223        125    
-Moviegoer.TranTime                          .00000     (Insuf)    .00000     .00000        125    
-Moviegoer.OtherTime                         .84000     (Insuf)    .00000     1.0000        125    
-Moviegoer.TotalTime                         3.5131     (Insuf)    .40149     9.5198        125    
-Join Counter Queue.Queue.WaitingTime        2.6633     (Insuf)    .00000     9.3223        126    
+Movie1SoldOutTime                           58.000     (Insuf)    58.000     58.000          1    
+Movie2SoldOutTime                           64.031     (Insuf)    64.031     64.031          1    
+Movie3SoldOutTime                           61.031     (Insuf)    61.031     61.031          1    
+Moviegoer.VATime                            .00000     (Insuf)    .00000     .00000        211    
+Moviegoer.NVATime                           .00000     (Insuf)    .00000     .00000        211    
+Moviegoer.WaitTime                          15.023     (Insuf)    .00000     35.923        211    
+Moviegoer.TranTime                          .00000     (Insuf)    .00000     .00000        211    
+Moviegoer.OtherTime                         .56398     (Insuf)    .00000     1.0000        211    
+Moviegoer.TotalTime                         15.587     (Insuf)    .03524     36.011        211    
+Join Counter Queue.Queue.WaitingTime        15.074     (Insuf)    .00000     35.923        212    
 Seize Counter for Movie Cust.Queue.Waiting      --         --         --         --          0
 
                                      DISCRETE-CHANGE VARIABLES
@@ -652,11 +652,11 @@ Seize Counter for Movie Cust.Queue.Waiting      --         --         --        
 Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
 ___________________________________________________________________________________________________
 
-Moviegoer.WIP                               3.6792     (Insuf)    .00000     14.000     2.0000    
-counter.NumberBusy                          .88087     (Insuf)    .00000     1.0000     1.0000    
+Moviegoer.WIP                               34.249     (Corr)     .00000     88.000     66.000    
+counter.NumberBusy                          .99974     (Insuf)    .00000     1.0000     1.0000    
 counter.NumberScheduled                     1.0000     (Insuf)    1.0000     1.0000     1.0000    
-counter.Utilization                         .88087     (Insuf)    .00000     1.0000     1.0000    
-Join Counter Queue.Queue.NumberInQueue      2.7983     (Insuf)    .00000     13.000     1.0000    
+counter.Utilization                         .99974     (Insuf)    .00000     1.0000     1.0000    
+Join Counter Queue.Queue.NumberInQueue      33.249     (Corr)     .00000     87.000     65.000    
 Seize Counter for Movie Cust.Queue.NumberI  .00000     (Insuf)    .00000     .00000     .00000    
 
                                              COUNTERS
@@ -664,20 +664,20 @@ Seize Counter for Movie Cust.Queue.NumberI  .00000     (Insuf)    .00000     .00
 Identifier                                    Count   Limit
 _____________________________________________________________
 
-Record Reneging Movie3 Customers                  0  Infinite
-Record Reneging Movie2 Customers                  7  Infinite
-Record Reneging Movie1 Customers                 13  Infinite
+Record Reneging Movie3 Customers                  1  Infinite
+Record Reneging Movie2 Customers                  4  Infinite
+Record Reneging Movie1 Customers                 87  Infinite
 
                                              OUTPUTS
 
 Identifier                                   Value
 _____________________________________________________________
 
-Moviegoer.NumberIn                          127.00    
-Moviegoer.NumberOut                         125.00    
-counter.NumberSeized                        106.00    
-counter.ScheduledUtilization                .88087    
-System.NumberOut                            125.00    
+Moviegoer.NumberIn                          277.00    
+Moviegoer.NumberOut                         211.00    
+counter.NumberSeized                        120.00    
+counter.ScheduledUtilization                .99974    
+System.NumberOut                            211.00    
 
 Beginning replication 12 of 30
 
@@ -697,16 +697,16 @@ Base Time Units: Minutes
 Identifier                                  Average   Half Width  Minimum    Maximum   Observations
 ___________________________________________________________________________________________________
 
-Movie1SoldOutTime                           73.553     (Insuf)    73.553     73.553          1    
-Movie2SoldOutTime                           52.351     (Insuf)    52.351     52.351          1    
-Movie3SoldOutTime                           97.651     (Insuf)    97.651     97.651          1    
-Moviegoer.VATime                            .00000     (Insuf)    .00000     .00000        113    
-Moviegoer.NVATime                           .00000     (Insuf)    .00000     .00000        113    
-Moviegoer.WaitTime                          2.1702     (Insuf)    .00000     5.3676        113    
-Moviegoer.TranTime                          .00000     (Insuf)    .00000     .00000        113    
-Moviegoer.OtherTime                         .97345     (Insuf)    .00000     1.0000        113    
-Moviegoer.TotalTime                         3.1436     (Insuf)    .41822     6.3676        113    
-Join Counter Queue.Queue.WaitingTime        2.1655     (Insuf)    .00000     5.3676        114    
+Movie1SoldOutTime                           53.000     (Insuf)    53.000     53.000          1    
+Movie2SoldOutTime                           44.000     (Insuf)    44.000     44.000          1    
+Movie3SoldOutTime                           97.000     (Insuf)    97.000     97.000          1    
+Moviegoer.VATime                            .00000     (Insuf)    .00000     .00000        249    
+Moviegoer.NVATime                           .00000     (Insuf)    .00000     .00000        249    
+Moviegoer.WaitTime                          11.345     (Insuf)    .00000     29.590        249    
+Moviegoer.TranTime                          .00000     (Insuf)    .00000     .00000        249    
+Moviegoer.OtherTime                         .48193     (Insuf)    .00000     1.0000        249    
+Moviegoer.TotalTime                         11.827     (Insuf)    .62374     29.659        249    
+Join Counter Queue.Queue.WaitingTime        11.358     (Insuf)    .00000     29.590        250    
 Seize Counter for Movie Cust.Queue.Waiting      --         --         --         --          0
 
                                      DISCRETE-CHANGE VARIABLES
@@ -714,11 +714,11 @@ Seize Counter for Movie Cust.Queue.Waiting      --         --         --        
 Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
 ___________________________________________________________________________________________________
 
-Moviegoer.WIP                               3.0033     (Insuf)    .00000     7.0000     3.0000    
-counter.NumberBusy                          .92391     (Insuf)    .00000     1.0000     1.0000    
+Moviegoer.WIP                               26.384     (Corr)     .00000     71.000     33.000    
+counter.NumberBusy                          1.0000     (Insuf)    .00000     1.0000     1.0000    
 counter.NumberScheduled                     1.0000     (Insuf)    1.0000     1.0000     1.0000    
-counter.Utilization                         .92391     (Insuf)    .00000     1.0000     1.0000    
-Join Counter Queue.Queue.NumberInQueue      2.0794     (Insuf)    .00000     6.0000     2.0000    
+counter.Utilization                         1.0000     (Insuf)    .00000     1.0000     1.0000    
+Join Counter Queue.Queue.NumberInQueue      25.384     (Corr)     .00000     70.000     32.000    
 Seize Counter for Movie Cust.Queue.NumberI  .00000     (Insuf)    .00000     .00000     .00000    
 
                                              COUNTERS
@@ -726,20 +726,20 @@ Seize Counter for Movie Cust.Queue.NumberI  .00000     (Insuf)    .00000     .00
 Identifier                                    Count   Limit
 _____________________________________________________________
 
-Record Reneging Movie3 Customers                  0  Infinite
-Record Reneging Movie2 Customers                  0  Infinite
-Record Reneging Movie1 Customers                  3  Infinite
+Record Reneging Movie3 Customers                 69  Infinite
+Record Reneging Movie2 Customers                 49  Infinite
+Record Reneging Movie1 Customers                 11  Infinite
 
                                              OUTPUTS
 
 Identifier                                   Value
 _____________________________________________________________
 
-Moviegoer.NumberIn                          116.00    
-Moviegoer.NumberOut                         113.00    
-counter.NumberSeized                        111.00    
-counter.ScheduledUtilization                .92391    
-System.NumberOut                            113.00    
+Moviegoer.NumberIn                          282.00    
+Moviegoer.NumberOut                         249.00    
+counter.NumberSeized                        121.00    
+counter.ScheduledUtilization                1.0000    
+System.NumberOut                            249.00    
 
 Beginning replication 13 of 30
 
@@ -759,16 +759,16 @@ Base Time Units: Minutes
 Identifier                                  Average   Half Width  Minimum    Maximum   Observations
 ___________________________________________________________________________________________________
 
-Movie1SoldOutTime                           60.731     (Insuf)    60.731     60.731          1    
-Movie2SoldOutTime                           69.731     (Insuf)    69.731     69.731          1    
-Movie3SoldOutTime                           62.731     (Insuf)    62.731     62.731          1    
-Moviegoer.VATime                            .00000     (Insuf)    .00000     .00000        120    
-Moviegoer.NVATime                           .00000     (Insuf)    .00000     .00000        120    
-Moviegoer.WaitTime                          3.8946     (Insuf)    .00000     10.478        120    
-Moviegoer.TranTime                          .00000     (Insuf)    .00000     .00000        120    
-Moviegoer.OtherTime                         .96667     (Insuf)    .00000     1.0000        120    
-Moviegoer.TotalTime                         4.8612     (Insuf)    1.0000     11.478        120    
-Join Counter Queue.Queue.WaitingTime        3.9292     (Insuf)    .00000     10.478        121    
+Movie1SoldOutTime                           59.000     (Insuf)    59.000     59.000          1    
+Movie2SoldOutTime                           64.000     (Insuf)    64.000     64.000          1    
+Movie3SoldOutTime                           66.000     (Insuf)    66.000     66.000          1    
+Moviegoer.VATime                            .00000     (Insuf)    .00000     .00000        215    
+Moviegoer.NVATime                           .00000     (Insuf)    .00000     .00000        215    
+Moviegoer.WaitTime                          15.454     (Insuf)    .00000     34.052        215    
+Moviegoer.TranTime                          .00000     (Insuf)    .00000     .00000        215    
+Moviegoer.OtherTime                         .55349     (Insuf)    .00000     1.0000        215    
+Moviegoer.TotalTime                         16.007     (Insuf)    .63637     35.052        215    
+Join Counter Queue.Queue.WaitingTime        15.521     (Insuf)    .00000     34.052        216    
 Seize Counter for Movie Cust.Queue.Waiting      --         --         --         --          0
 
                                      DISCRETE-CHANGE VARIABLES
@@ -776,11 +776,11 @@ Seize Counter for Movie Cust.Queue.Waiting      --         --         --        
 Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
 ___________________________________________________________________________________________________
 
-Moviegoer.WIP                               5.3822     (Insuf)    .00000     13.000     13.000    
-counter.NumberBusy                          .97335     (Insuf)    .00000     1.0000     1.0000    
+Moviegoer.WIP                               41.102     (Corr)     .00000     93.000     83.000    
+counter.NumberBusy                          .99557     (Insuf)    .00000     1.0000     1.0000    
 counter.NumberScheduled                     1.0000     (Insuf)    1.0000     1.0000     1.0000    
-counter.Utilization                         .97335     (Insuf)    .00000     1.0000     1.0000    
-Join Counter Queue.Queue.NumberInQueue      4.4088     (Insuf)    .00000     12.000     12.000    
+counter.Utilization                         .99557     (Insuf)    .00000     1.0000     1.0000    
+Join Counter Queue.Queue.NumberInQueue      40.106     (Corr)     .00000     92.000     82.000    
 Seize Counter for Movie Cust.Queue.NumberI  .00000     (Insuf)    .00000     .00000     .00000    
 
                                              COUNTERS
@@ -788,20 +788,20 @@ Seize Counter for Movie Cust.Queue.NumberI  .00000     (Insuf)    .00000     .00
 Identifier                                    Count   Limit
 _____________________________________________________________
 
-Record Reneging Movie3 Customers                  1  Infinite
-Record Reneging Movie2 Customers                  3  Infinite
-Record Reneging Movie1 Customers                  0  Infinite
+Record Reneging Movie3 Customers                  5  Infinite
+Record Reneging Movie2 Customers                  0  Infinite
+Record Reneging Movie1 Customers                 91  Infinite
 
                                              OUTPUTS
 
 Identifier                                   Value
 _____________________________________________________________
 
-Moviegoer.NumberIn                          133.00    
-Moviegoer.NumberOut                         120.00    
-counter.NumberSeized                        117.00    
-counter.ScheduledUtilization                .97335    
-System.NumberOut                            120.00    
+Moviegoer.NumberIn                          298.00    
+Moviegoer.NumberOut                         215.00    
+counter.NumberSeized                        120.00    
+counter.ScheduledUtilization                .99557    
+System.NumberOut                            215.00    
 
 Beginning replication 14 of 30
 
@@ -821,16 +821,16 @@ Base Time Units: Minutes
 Identifier                                  Average   Half Width  Minimum    Maximum   Observations
 ___________________________________________________________________________________________________
 
-Movie1SoldOutTime                           60.133     (Insuf)    60.133     60.133          1    
-Movie2SoldOutTime                           61.133     (Insuf)    61.133     61.133          1    
-Movie3SoldOutTime                               --         --         --         --          0
-Moviegoer.VATime                            .00000     (Insuf)    .00000     .00000        112    
-Moviegoer.NVATime                           .00000     (Insuf)    .00000     .00000        112    
-Moviegoer.WaitTime                          3.8149     (Insuf)    .00000     10.437        112    
-Moviegoer.TranTime                          .00000     (Insuf)    .00000     .00000        112    
-Moviegoer.OtherTime                         1.0000     (Insuf)    1.0000     1.0000        112    
-Moviegoer.TotalTime                         4.8149     (Insuf)    1.0000     11.437        112    
-Join Counter Queue.Queue.WaitingTime        3.8128     (Insuf)    .00000     10.437        113    
+Movie1SoldOutTime                           56.000     (Insuf)    56.000     56.000          1    
+Movie2SoldOutTime                           58.000     (Insuf)    58.000     58.000          1    
+Movie3SoldOutTime                           79.694     (Insuf)    79.694     79.694          1    
+Moviegoer.VATime                            .00000     (Insuf)    .00000     .00000        211    
+Moviegoer.NVATime                           .00000     (Insuf)    .00000     .00000        211    
+Moviegoer.WaitTime                          12.171     (Insuf)    .00000     29.697        211    
+Moviegoer.TranTime                          .00000     (Insuf)    .00000     .00000        211    
+Moviegoer.OtherTime                         .56398     (Insuf)    .00000     1.0000        211    
+Moviegoer.TotalTime                         12.735     (Insuf)    .85771     30.041        211    
+Join Counter Queue.Queue.WaitingTime        12.211     (Insuf)    .00000     29.697        212    
 Seize Counter for Movie Cust.Queue.Waiting      --         --         --         --          0
 
                                      DISCRETE-CHANGE VARIABLES
@@ -838,11 +838,11 @@ Seize Counter for Movie Cust.Queue.Waiting      --         --         --        
 Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
 ___________________________________________________________________________________________________
 
-Moviegoer.WIP                               4.5579     (Insuf)    .00000     12.000     4.0000    
-counter.NumberBusy                          .93773     (Insuf)    .00000     1.0000     1.0000    
+Moviegoer.WIP                               26.213     (Corr)     .00000     69.000     48.000    
+counter.NumberBusy                          .99421     (Insuf)    .00000     1.0000     1.0000    
 counter.NumberScheduled                     1.0000     (Insuf)    1.0000     1.0000     1.0000    
-counter.Utilization                         .93773     (Insuf)    .00000     1.0000     1.0000    
-Join Counter Queue.Queue.NumberInQueue      3.6201     (Insuf)    .00000     11.000     3.0000    
+counter.Utilization                         .99421     (Insuf)    .00000     1.0000     1.0000    
+Join Counter Queue.Queue.NumberInQueue      25.218     (Corr)     .00000     68.000     47.000    
 Seize Counter for Movie Cust.Queue.NumberI  .00000     (Insuf)    .00000     .00000     .00000    
 
                                              COUNTERS
@@ -850,20 +850,20 @@ Seize Counter for Movie Cust.Queue.NumberI  .00000     (Insuf)    .00000     .00
 Identifier                                    Count   Limit
 _____________________________________________________________
 
-Record Reneging Movie3 Customers                  0  Infinite
-Record Reneging Movie2 Customers                  0  Infinite
-Record Reneging Movie1 Customers                  0  Infinite
+Record Reneging Movie3 Customers                 23  Infinite
+Record Reneging Movie2 Customers                  7  Infinite
+Record Reneging Movie1 Customers                 62  Infinite
 
                                              OUTPUTS
 
 Identifier                                   Value
 _____________________________________________________________
 
-Moviegoer.NumberIn                          116.00    
-Moviegoer.NumberOut                         112.00    
-counter.NumberSeized                        113.00    
-counter.ScheduledUtilization                .93773    
-System.NumberOut                            112.00    
+Moviegoer.NumberIn                          259.00    
+Moviegoer.NumberOut                         211.00    
+counter.NumberSeized                        120.00    
+counter.ScheduledUtilization                .99421    
+System.NumberOut                            211.00    
 
 Beginning replication 15 of 30
 
@@ -883,16 +883,16 @@ Base Time Units: Minutes
 Identifier                                  Average   Half Width  Minimum    Maximum   Observations
 ___________________________________________________________________________________________________
 
-Movie1SoldOutTime                           73.474     (Insuf)    73.474     73.474          1    
-Movie2SoldOutTime                           77.734     (Insuf)    77.734     77.734          1    
-Movie3SoldOutTime                           72.474     (Insuf)    72.474     72.474          1    
-Moviegoer.VATime                            .00000     (Insuf)    .00000     .00000        119    
-Moviegoer.NVATime                           .00000     (Insuf)    .00000     .00000        119    
-Moviegoer.WaitTime                          4.0534     (Insuf)    .00000     9.8960        119    
-Moviegoer.TranTime                          .00000     (Insuf)    .00000     .00000        119    
-Moviegoer.OtherTime                         .93277     (Insuf)    .00000     1.0000        119    
-Moviegoer.TotalTime                         4.9862     (Insuf)    .14610     10.896        119    
-Join Counter Queue.Queue.WaitingTime        4.0583     (Insuf)    .00000     9.8960        120    
+Movie1SoldOutTime                           79.000     (Insuf)    79.000     79.000          1    
+Movie2SoldOutTime                           102.66     (Insuf)    102.66     102.66          1    
+Movie3SoldOutTime                           71.000     (Insuf)    71.000     71.000          1    
+Moviegoer.VATime                            .00000     (Insuf)    .00000     .00000        272    
+Moviegoer.NVATime                           .00000     (Insuf)    .00000     .00000        272    
+Moviegoer.WaitTime                          15.124     (Insuf)    .00000     42.637        272    
+Moviegoer.TranTime                          .00000     (Insuf)    .00000     .00000        272    
+Moviegoer.OtherTime                         .43382     (Insuf)    .00000     1.0000        272    
+Moviegoer.TotalTime                         15.558     (Insuf)    .02871     42.738        272    
+Join Counter Queue.Queue.WaitingTime        15.110     (Insuf)    .00000     42.637        273    
 Seize Counter for Movie Cust.Queue.Waiting      --         --         --         --          0
 
                                      DISCRETE-CHANGE VARIABLES
@@ -900,11 +900,11 @@ Seize Counter for Movie Cust.Queue.Waiting      --         --         --        
 Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
 ___________________________________________________________________________________________________
 
-Moviegoer.WIP                               5.0114     (Insuf)    .00000     12.000     3.0000    
-counter.NumberBusy                          .92507     (Insuf)    .00000     1.0000     1.0000    
+Moviegoer.WIP                               37.180     (Corr)     .00000     99.000     31.000    
+counter.NumberBusy                          .99114     (Insuf)    .00000     1.0000     1.0000    
 counter.NumberScheduled                     1.0000     (Insuf)    1.0000     1.0000     1.0000    
-counter.Utilization                         .92507     (Insuf)    .00000     1.0000     1.0000    
-Join Counter Queue.Queue.NumberInQueue      4.0863     (Insuf)    .00000     11.000     2.0000    
+counter.Utilization                         .99114     (Insuf)    .00000     1.0000     1.0000    
+Join Counter Queue.Queue.NumberInQueue      36.189     (Corr)     .00000     98.000     30.000    
 Seize Counter for Movie Cust.Queue.NumberI  .00000     (Insuf)    .00000     .00000     .00000    
 
                                              COUNTERS
@@ -912,20 +912,20 @@ Seize Counter for Movie Cust.Queue.NumberI  .00000     (Insuf)    .00000     .00
 Identifier                                    Count   Limit
 _____________________________________________________________
 
-Record Reneging Movie3 Customers                  6  Infinite
-Record Reneging Movie2 Customers                  1  Infinite
-Record Reneging Movie1 Customers                  1  Infinite
+Record Reneging Movie3 Customers                 95  Infinite
+Record Reneging Movie2 Customers                 43  Infinite
+Record Reneging Movie1 Customers                 16  Infinite
 
                                              OUTPUTS
 
 Identifier                                   Value
 _____________________________________________________________
 
-Moviegoer.NumberIn                          122.00    
-Moviegoer.NumberOut                         119.00    
-counter.NumberSeized                        112.00    
-counter.ScheduledUtilization                .92507    
-System.NumberOut                            119.00    
+Moviegoer.NumberIn                          303.00    
+Moviegoer.NumberOut                         272.00    
+counter.NumberSeized                        119.00    
+counter.ScheduledUtilization                .99114    
+System.NumberOut                            272.00    
 
 Beginning replication 16 of 30
 
@@ -945,16 +945,16 @@ Base Time Units: Minutes
 Identifier                                  Average   Half Width  Minimum    Maximum   Observations
 ___________________________________________________________________________________________________
 
-Movie1SoldOutTime                           58.198     (Insuf)    58.198     58.198          1    
-Movie2SoldOutTime                           86.610     (Insuf)    86.610     86.610          1    
-Movie3SoldOutTime                           69.516     (Insuf)    69.516     69.516          1    
-Moviegoer.VATime                            .00000     (Insuf)    .00000     .00000        114    
-Moviegoer.NVATime                           .00000     (Insuf)    .00000     .00000        114    
-Moviegoer.WaitTime                          1.5188     (Insuf)    .00000     5.5372        114    
-Moviegoer.TranTime                          .00000     (Insuf)    .00000     .00000        114    
-Moviegoer.OtherTime                         .92105     (Insuf)    .00000     1.0000        114    
-Moviegoer.TotalTime                         2.4398     (Insuf)    .30421     6.4329        114    
-Join Counter Queue.Queue.WaitingTime        1.5247     (Insuf)    .00000     5.5372        115    
+Movie1SoldOutTime                           51.000     (Insuf)    51.000     51.000          1    
+Movie2SoldOutTime                           67.060     (Insuf)    67.060     67.060          1    
+Movie3SoldOutTime                           64.060     (Insuf)    64.060     64.060          1    
+Moviegoer.VATime                            .00000     (Insuf)    .00000     .00000        199    
+Moviegoer.NVATime                           .00000     (Insuf)    .00000     .00000        199    
+Moviegoer.WaitTime                          12.113     (Insuf)    .00000     32.125        199    
+Moviegoer.TranTime                          .00000     (Insuf)    .00000     .00000        199    
+Moviegoer.OtherTime                         .59799     (Insuf)    .00000     1.0000        199    
+Moviegoer.TotalTime                         12.711     (Insuf)    .28164     33.125        199    
+Join Counter Queue.Queue.WaitingTime        12.215     (Insuf)    .00000     32.625        200    
 Seize Counter for Movie Cust.Queue.Waiting      --         --         --         --          0
 
                                      DISCRETE-CHANGE VARIABLES
@@ -962,11 +962,11 @@ Seize Counter for Movie Cust.Queue.Waiting      --         --         --        
 Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
 ___________________________________________________________________________________________________
 
-Moviegoer.WIP                               2.3748     (Insuf)    .00000     10.000     3.0000    
-counter.NumberBusy                          .88162     (Insuf)    .00000     1.0000     1.0000    
+Moviegoer.WIP                               31.103     (Corr)     .00000     77.000     77.000    
+counter.NumberBusy                          .99950     (Insuf)    .00000     1.0000     1.0000    
 counter.NumberScheduled                     1.0000     (Insuf)    1.0000     1.0000     1.0000    
-counter.Utilization                         .88162     (Insuf)    .00000     1.0000     1.0000    
-Join Counter Queue.Queue.NumberInQueue      1.4932     (Insuf)    .00000     9.0000     2.0000    
+counter.Utilization                         .99950     (Insuf)    .00000     1.0000     1.0000    
+Join Counter Queue.Queue.NumberInQueue      30.104     (Corr)     .00000     76.000     76.000    
 Seize Counter for Movie Cust.Queue.NumberI  .00000     (Insuf)    .00000     .00000     .00000    
 
                                              COUNTERS
@@ -974,20 +974,20 @@ Seize Counter for Movie Cust.Queue.NumberI  .00000     (Insuf)    .00000     .00
 Identifier                                    Count   Limit
 _____________________________________________________________
 
-Record Reneging Movie3 Customers                  3  Infinite
-Record Reneging Movie2 Customers                  6  Infinite
-Record Reneging Movie1 Customers                  0  Infinite
+Record Reneging Movie3 Customers                 18  Infinite
+Record Reneging Movie2 Customers                  3  Infinite
+Record Reneging Movie1 Customers                 59  Infinite
 
                                              OUTPUTS
 
 Identifier                                   Value
 _____________________________________________________________
 
-Moviegoer.NumberIn                          117.00    
-Moviegoer.NumberOut                         114.00    
-counter.NumberSeized                        106.00    
-counter.ScheduledUtilization                .88162    
-System.NumberOut                            114.00    
+Moviegoer.NumberIn                          276.00    
+Moviegoer.NumberOut                         199.00    
+counter.NumberSeized                        120.00    
+counter.ScheduledUtilization                .99950    
+System.NumberOut                            199.00    
 
 Beginning replication 17 of 30
 
@@ -1007,16 +1007,16 @@ Base Time Units: Minutes
 Identifier                                  Average   Half Width  Minimum    Maximum   Observations
 ___________________________________________________________________________________________________
 
-Movie1SoldOutTime                           77.403     (Insuf)    77.403     77.403          1    
-Movie2SoldOutTime                           64.277     (Insuf)    64.277     64.277          1    
-Movie3SoldOutTime                           86.403     (Insuf)    86.403     86.403          1    
-Moviegoer.VATime                            .00000     (Insuf)    .00000     .00000        108    
-Moviegoer.NVATime                           .00000     (Insuf)    .00000     .00000        108    
-Moviegoer.WaitTime                          2.1320     (Insuf)    .00000     7.9455        108    
-Moviegoer.TranTime                          .00000     (Insuf)    .00000     .00000        108    
-Moviegoer.OtherTime                         .87963     (Insuf)    .00000     1.0000        108    
-Moviegoer.TotalTime                         3.0116     (Insuf)    .57855     8.9455        108    
-Join Counter Queue.Queue.WaitingTime        2.1195     (Insuf)    .00000     7.9455        109    
+Movie1SoldOutTime                           60.445     (Insuf)    60.445     60.445          1    
+Movie2SoldOutTime                           51.000     (Insuf)    51.000     51.000          1    
+Movie3SoldOutTime                           84.445     (Insuf)    84.445     84.445          1    
+Moviegoer.VATime                            .00000     (Insuf)    .00000     .00000        218    
+Moviegoer.NVATime                           .00000     (Insuf)    .00000     .00000        218    
+Moviegoer.WaitTime                          9.7381     (Insuf)    .00000     25.930        218    
+Moviegoer.TranTime                          .00000     (Insuf)    .00000     .00000        218    
+Moviegoer.OtherTime                         .54128     (Insuf)    .00000     1.0000        218    
+Moviegoer.TotalTime                         10.279     (Insuf)    .17441     26.208        218    
+Join Counter Queue.Queue.WaitingTime        9.7850     (Insuf)    .00000     25.930        219    
 Seize Counter for Movie Cust.Queue.Waiting      --         --         --         --          0
 
                                      DISCRETE-CHANGE VARIABLES
@@ -1024,11 +1024,11 @@ Seize Counter for Movie Cust.Queue.Waiting      --         --         --        
 Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
 ___________________________________________________________________________________________________
 
-Moviegoer.WIP                               2.7466     (Insuf)    .00000     11.000     4.0000    
-counter.NumberBusy                          .79920     (Insuf)    .00000     1.0000     1.0000    
+Moviegoer.WIP                               22.972     (Corr)     .00000     57.000     50.000    
+counter.NumberBusy                          .98795     (Insuf)    .00000     1.0000     1.0000    
 counter.NumberScheduled                     1.0000     (Insuf)    1.0000     1.0000     1.0000    
-counter.Utilization                         .79920     (Insuf)    .00000     1.0000     1.0000    
-Join Counter Queue.Queue.NumberInQueue      1.9474     (Insuf)    .00000     10.000     3.0000    
+counter.Utilization                         .98795     (Insuf)    .00000     1.0000     1.0000    
+Join Counter Queue.Queue.NumberInQueue      21.984     (Corr)     .00000     56.000     49.000    
 Seize Counter for Movie Cust.Queue.NumberI  .00000     (Insuf)    .00000     .00000     .00000    
 
                                              COUNTERS
@@ -1036,20 +1036,20 @@ Seize Counter for Movie Cust.Queue.NumberI  .00000     (Insuf)    .00000     .00
 Identifier                                    Count   Limit
 _____________________________________________________________
 
-Record Reneging Movie3 Customers                  2  Infinite
-Record Reneging Movie2 Customers                  7  Infinite
-Record Reneging Movie1 Customers                  4  Infinite
+Record Reneging Movie3 Customers                 29  Infinite
+Record Reneging Movie2 Customers                 56  Infinite
+Record Reneging Movie1 Customers                 15  Infinite
 
                                              OUTPUTS
 
 Identifier                                   Value
 _____________________________________________________________
 
-Moviegoer.NumberIn                          112.00    
-Moviegoer.NumberOut                         108.00    
-counter.NumberSeized                        96.000    
-counter.ScheduledUtilization                .79920    
-System.NumberOut                            108.00    
+Moviegoer.NumberIn                          268.00    
+Moviegoer.NumberOut                         218.00    
+counter.NumberSeized                        119.00    
+counter.ScheduledUtilization                .98795    
+System.NumberOut                            218.00    
 
 Beginning replication 18 of 30
 
@@ -1069,16 +1069,16 @@ Base Time Units: Minutes
 Identifier                                  Average   Half Width  Minimum    Maximum   Observations
 ___________________________________________________________________________________________________
 
-Movie1SoldOutTime                           77.273     (Insuf)    77.273     77.273          1    
-Movie2SoldOutTime                               --         --         --         --          0
-Movie3SoldOutTime                           75.273     (Insuf)    75.273     75.273          1    
-Moviegoer.VATime                            .00000     (Insuf)    .00000     .00000        122    
-Moviegoer.NVATime                           .00000     (Insuf)    .00000     .00000        122    
-Moviegoer.WaitTime                          4.8856     (Insuf)    .00000     12.216        122    
-Moviegoer.TranTime                          .00000     (Insuf)    .00000     .00000        122    
-Moviegoer.OtherTime                         .92623     (Insuf)    .00000     1.0000        122    
-Moviegoer.TotalTime                         5.8119     (Insuf)    1.0000     13.216        122    
-Join Counter Queue.Queue.WaitingTime        4.8606     (Insuf)    .00000     12.216        123    
+Movie1SoldOutTime                           70.000     (Insuf)    70.000     70.000          1    
+Movie2SoldOutTime                           72.206     (Insuf)    72.206     72.206          1    
+Movie3SoldOutTime                           69.000     (Insuf)    69.000     69.000          1    
+Moviegoer.VATime                            .00000     (Insuf)    .00000     .00000        220    
+Moviegoer.NVATime                           .00000     (Insuf)    .00000     .00000        220    
+Moviegoer.WaitTime                          17.539     (Insuf)    .00000     40.657        220    
+Moviegoer.TranTime                          .00000     (Insuf)    .00000     .00000        220    
+Moviegoer.OtherTime                         .54091     (Insuf)    .00000     1.0000        220    
+Moviegoer.TotalTime                         18.080     (Insuf)    .16505     40.920        220    
+Join Counter Queue.Queue.WaitingTime        17.574     (Insuf)    .00000     40.657        221    
 Seize Counter for Movie Cust.Queue.Waiting      --         --         --         --          0
 
                                      DISCRETE-CHANGE VARIABLES
@@ -1086,11 +1086,11 @@ Seize Counter for Movie Cust.Queue.Waiting      --         --         --        
 Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
 ___________________________________________________________________________________________________
 
-Moviegoer.WIP                               5.9660     (Insuf)    .00000     14.000     3.0000    
-counter.NumberBusy                          .94737     (Insuf)    .00000     1.0000     1.0000    
+Moviegoer.WIP                               39.889     (Corr)     .00000     99.000     61.000    
+counter.NumberBusy                          .99828     (Insuf)    .00000     1.0000     1.0000    
 counter.NumberScheduled                     1.0000     (Insuf)    1.0000     1.0000     1.0000    
-counter.Utilization                         .94737     (Insuf)    .00000     1.0000     1.0000    
-Join Counter Queue.Queue.NumberInQueue      5.0187     (Insuf)    .00000     13.000     2.0000    
+counter.Utilization                         .99828     (Insuf)    .00000     1.0000     1.0000    
+Join Counter Queue.Queue.NumberInQueue      38.891     (Corr)     .00000     98.000     60.000    
 Seize Counter for Movie Cust.Queue.NumberI  .00000     (Insuf)    .00000     .00000     .00000    
 
                                              COUNTERS
@@ -1098,20 +1098,20 @@ Seize Counter for Movie Cust.Queue.NumberI  .00000     (Insuf)    .00000     .00
 Identifier                                    Count   Limit
 _____________________________________________________________
 
-Record Reneging Movie3 Customers                  6  Infinite
-Record Reneging Movie2 Customers                  0  Infinite
-Record Reneging Movie1 Customers                  3  Infinite
+Record Reneging Movie3 Customers                 96  Infinite
+Record Reneging Movie2 Customers                  4  Infinite
+Record Reneging Movie1 Customers                  1  Infinite
 
                                              OUTPUTS
 
 Identifier                                   Value
 _____________________________________________________________
 
-Moviegoer.NumberIn                          125.00    
-Moviegoer.NumberOut                         122.00    
-counter.NumberSeized                        114.00    
-counter.ScheduledUtilization                .94737    
-System.NumberOut                            122.00    
+Moviegoer.NumberIn                          281.00    
+Moviegoer.NumberOut                         220.00    
+counter.NumberSeized                        120.00    
+counter.ScheduledUtilization                .99828    
+System.NumberOut                            220.00    
 
 Beginning replication 19 of 30
 
@@ -1131,16 +1131,16 @@ Base Time Units: Minutes
 Identifier                                  Average   Half Width  Minimum    Maximum   Observations
 ___________________________________________________________________________________________________
 
-Movie1SoldOutTime                           64.475     (Insuf)    64.475     64.475          1    
-Movie2SoldOutTime                           68.942     (Insuf)    68.942     68.942          1    
-Movie3SoldOutTime                           67.942     (Insuf)    67.942     67.942          1    
-Moviegoer.VATime                            .00000     (Insuf)    .00000     .00000        110    
-Moviegoer.NVATime                           .00000     (Insuf)    .00000     .00000        110    
-Moviegoer.WaitTime                          2.5986     (Insuf)    .00000     7.4405        110    
-Moviegoer.TranTime                          .00000     (Insuf)    .00000     .00000        110    
-Moviegoer.OtherTime                         .91818     (Insuf)    .00000     1.0000        110    
-Moviegoer.TotalTime                         3.5168     (Insuf)    .57395     8.4405        110    
-Join Counter Queue.Queue.WaitingTime        2.5986     (Insuf)    .00000     7.4405        110    
+Movie1SoldOutTime                           58.000     (Insuf)    58.000     58.000          1    
+Movie2SoldOutTime                           61.000     (Insuf)    61.000     61.000          1    
+Movie3SoldOutTime                           59.000     (Insuf)    59.000     59.000          1    
+Moviegoer.VATime                            .00000     (Insuf)    .00000     .00000        183    
+Moviegoer.NVATime                           .00000     (Insuf)    .00000     .00000        183    
+Moviegoer.WaitTime                          17.024     (Insuf)    .00000     39.159        183    
+Moviegoer.TranTime                          .00000     (Insuf)    .00000     .00000        183    
+Moviegoer.OtherTime                         .65574     (Insuf)    .00000     1.0000        183    
+Moviegoer.TotalTime                         17.679     (Insuf)    .47503     40.159        183    
+Join Counter Queue.Queue.WaitingTime        17.144     (Insuf)    .00000     39.203        184    
 Seize Counter for Movie Cust.Queue.Waiting      --         --         --         --          0
 
                                      DISCRETE-CHANGE VARIABLES
@@ -1148,11 +1148,11 @@ Seize Counter for Movie Cust.Queue.Waiting      --         --         --        
 Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
 ___________________________________________________________________________________________________
 
-Moviegoer.WIP                               3.2237     (Insuf)    .00000     9.0000     .00000    
-counter.NumberBusy                          .84167     (Insuf)    .00000     1.0000     .00000    
+Moviegoer.WIP                               42.931     (Corr)     .00000     100.00     99.000    
+counter.NumberBusy                          1.0000     (Insuf)    .00000     1.0000     1.0000    
 counter.NumberScheduled                     1.0000     (Insuf)    1.0000     1.0000     1.0000    
-counter.Utilization                         .84167     (Insuf)    .00000     1.0000     .00000    
-Join Counter Queue.Queue.NumberInQueue      2.3821     (Insuf)    .00000     8.0000     .00000    
+counter.Utilization                         1.0000     (Insuf)    .00000     1.0000     1.0000    
+Join Counter Queue.Queue.NumberInQueue      41.931     (Corr)     .00000     99.000     98.000    
 Seize Counter for Movie Cust.Queue.NumberI  .00000     (Insuf)    .00000     .00000     .00000    
 
                                              COUNTERS
@@ -1161,19 +1161,19 @@ Identifier                                    Count   Limit
 _____________________________________________________________
 
 Record Reneging Movie3 Customers                  0  Infinite
-Record Reneging Movie2 Customers                  2  Infinite
-Record Reneging Movie1 Customers                  7  Infinite
+Record Reneging Movie2 Customers                  3  Infinite
+Record Reneging Movie1 Customers                 60  Infinite
 
                                              OUTPUTS
 
 Identifier                                   Value
 _____________________________________________________________
 
-Moviegoer.NumberIn                          110.00    
-Moviegoer.NumberOut                         110.00    
-counter.NumberSeized                        101.00    
-counter.ScheduledUtilization                .84167    
-System.NumberOut                            110.00    
+Moviegoer.NumberIn                          282.00    
+Moviegoer.NumberOut                         183.00    
+counter.NumberSeized                        121.00    
+counter.ScheduledUtilization                1.0000    
+System.NumberOut                            183.00    
 
 Beginning replication 20 of 30
 
@@ -1193,16 +1193,16 @@ Base Time Units: Minutes
 Identifier                                  Average   Half Width  Minimum    Maximum   Observations
 ___________________________________________________________________________________________________
 
-Movie1SoldOutTime                           60.146     (Insuf)    60.146     60.146          1    
+Movie1SoldOutTime                           89.044     (Insuf)    89.044     89.044          1    
 Movie2SoldOutTime                           38.000     (Insuf)    38.000     38.000          1    
-Movie3SoldOutTime                           106.91     (Insuf)    106.91     106.91          1    
-Moviegoer.VATime                            .00000     (Insuf)    .00000     .00000        127    
-Moviegoer.NVATime                           .00000     (Insuf)    .00000     .00000        127    
-Moviegoer.WaitTime                          4.7609     (Insuf)    .00000     11.747        127    
-Moviegoer.TranTime                          .00000     (Insuf)    .00000     .00000        127    
-Moviegoer.OtherTime                         .85039     (Insuf)    .00000     1.0000        127    
-Moviegoer.TotalTime                         5.6113     (Insuf)    .97738     12.707        127    
-Join Counter Queue.Queue.WaitingTime        4.7688     (Insuf)    .00000     11.747        128    
+Movie3SoldOutTime                           72.000     (Insuf)    72.000     72.000          1    
+Moviegoer.VATime                            .00000     (Insuf)    .00000     .00000        247    
+Moviegoer.NVATime                           .00000     (Insuf)    .00000     .00000        247    
+Moviegoer.WaitTime                          9.6719     (Insuf)    .00000     23.648        247    
+Moviegoer.TranTime                          .00000     (Insuf)    .00000     .00000        247    
+Moviegoer.OtherTime                         .47773     (Insuf)    .00000     1.0000        247    
+Moviegoer.TotalTime                         10.149     (Insuf)    .19980     23.706        247    
+Join Counter Queue.Queue.WaitingTime        9.6798     (Insuf)    .00000     23.648        248    
 Seize Counter for Movie Cust.Queue.Waiting      --         --         --         --          0
 
                                      DISCRETE-CHANGE VARIABLES
@@ -1210,11 +1210,11 @@ Seize Counter for Movie Cust.Queue.Waiting      --         --         --        
 Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
 ___________________________________________________________________________________________________
 
-Moviegoer.WIP                               6.0723     (Insuf)    .00000     18.000     5.0000    
-counter.NumberBusy                          .90068     (Insuf)    .00000     1.0000     1.0000    
+Moviegoer.WIP                               22.209     (Corr)     .00000     64.000     24.000    
+counter.NumberBusy                          .98751     (Insuf)    .00000     1.0000     1.0000    
 counter.NumberScheduled                     1.0000     (Insuf)    1.0000     1.0000     1.0000    
-counter.Utilization                         .90068     (Insuf)    .00000     1.0000     1.0000    
-Join Counter Queue.Queue.NumberInQueue      5.1716     (Insuf)    .00000     17.000     4.0000    
+counter.Utilization                         .98751     (Insuf)    .00000     1.0000     1.0000    
+Join Counter Queue.Queue.NumberInQueue      21.221     (Corr)     .00000     63.000     23.000    
 Seize Counter for Movie Cust.Queue.NumberI  .00000     (Insuf)    .00000     .00000     .00000    
 
                                              COUNTERS
@@ -1222,20 +1222,20 @@ Seize Counter for Movie Cust.Queue.NumberI  .00000     (Insuf)    .00000     .00
 Identifier                                    Count   Limit
 _____________________________________________________________
 
-Record Reneging Movie3 Customers                 14  Infinite
-Record Reneging Movie2 Customers                  4  Infinite
-Record Reneging Movie1 Customers                  1  Infinite
+Record Reneging Movie3 Customers                 63  Infinite
+Record Reneging Movie2 Customers                 48  Infinite
+Record Reneging Movie1 Customers                 18  Infinite
 
                                              OUTPUTS
 
 Identifier                                   Value
 _____________________________________________________________
 
-Moviegoer.NumberIn                          132.00    
-Moviegoer.NumberOut                         127.00    
-counter.NumberSeized                        109.00    
-counter.ScheduledUtilization                .90068    
-System.NumberOut                            127.00    
+Moviegoer.NumberIn                          271.00    
+Moviegoer.NumberOut                         247.00    
+counter.NumberSeized                        119.00    
+counter.ScheduledUtilization                .98751    
+System.NumberOut                            247.00    
 
 Beginning replication 21 of 30
 
@@ -1255,16 +1255,16 @@ Base Time Units: Minutes
 Identifier                                  Average   Half Width  Minimum    Maximum   Observations
 ___________________________________________________________________________________________________
 
-Movie1SoldOutTime                           41.884     (Insuf)    41.884     41.884          1    
-Movie2SoldOutTime                           88.323     (Insuf)    88.323     88.323          1    
-Movie3SoldOutTime                           73.486     (Insuf)    73.486     73.486          1    
-Moviegoer.VATime                            .00000     (Insuf)    .00000     .00000        113    
-Moviegoer.NVATime                           .00000     (Insuf)    .00000     .00000        113    
-Moviegoer.WaitTime                          2.0605     (Insuf)    .00000     7.2515        113    
-Moviegoer.TranTime                          .00000     (Insuf)    .00000     .00000        113    
-Moviegoer.OtherTime                         .93805     (Insuf)    .00000     1.0000        113    
-Moviegoer.TotalTime                         2.9986     (Insuf)    1.0000     7.5638        113    
-Join Counter Queue.Queue.WaitingTime        2.0517     (Insuf)    .00000     7.2515        114    
+Movie1SoldOutTime                           37.000     (Insuf)    37.000     37.000          1    
+Movie2SoldOutTime                           81.336     (Insuf)    81.336     81.336          1    
+Movie3SoldOutTime                           117.58     (Insuf)    117.58     117.58          1    
+Moviegoer.VATime                            .00000     (Insuf)    .00000     .00000        251    
+Moviegoer.NVATime                           .00000     (Insuf)    .00000     .00000        251    
+Moviegoer.WaitTime                          10.533     (Insuf)    .00000     24.042        251    
+Moviegoer.TranTime                          .00000     (Insuf)    .00000     .00000        251    
+Moviegoer.OtherTime                         .47410     (Insuf)    .00000     1.0000        251    
+Moviegoer.TotalTime                         11.007     (Insuf)    .25832     24.383        251    
+Join Counter Queue.Queue.WaitingTime        10.512     (Insuf)    .00000     24.042        252    
 Seize Counter for Movie Cust.Queue.Waiting      --         --         --         --          0
 
                                      DISCRETE-CHANGE VARIABLES
@@ -1272,11 +1272,11 @@ Seize Counter for Movie Cust.Queue.Waiting      --         --         --        
 Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
 ___________________________________________________________________________________________________
 
-Moviegoer.WIP                               2.8457     (Insuf)    .00000     10.000     3.0000    
-counter.NumberBusy                          .88424     (Insuf)    .00000     1.0000     1.0000    
+Moviegoer.WIP                               23.273     (Corr)     .00000     57.000     15.000    
+counter.NumberBusy                          .99514     (Insuf)    .00000     1.0000     1.0000    
 counter.NumberScheduled                     1.0000     (Insuf)    1.0000     1.0000     1.0000    
-counter.Utilization                         .88424     (Insuf)    .00000     1.0000     1.0000    
-Join Counter Queue.Queue.NumberInQueue      1.9615     (Insuf)    .00000     9.0000     2.0000    
+counter.Utilization                         .99514     (Insuf)    .00000     1.0000     1.0000    
+Join Counter Queue.Queue.NumberInQueue      22.278     (Corr)     .00000     56.000     14.000    
 Seize Counter for Movie Cust.Queue.NumberI  .00000     (Insuf)    .00000     .00000     .00000    
 
                                              COUNTERS
@@ -1284,20 +1284,20 @@ Seize Counter for Movie Cust.Queue.NumberI  .00000     (Insuf)    .00000     .00
 Identifier                                    Count   Limit
 _____________________________________________________________
 
-Record Reneging Movie3 Customers                  5  Infinite
-Record Reneging Movie2 Customers                  0  Infinite
-Record Reneging Movie1 Customers                  2  Infinite
+Record Reneging Movie3 Customers                 31  Infinite
+Record Reneging Movie2 Customers                 56  Infinite
+Record Reneging Movie1 Customers                 45  Infinite
 
                                              OUTPUTS
 
 Identifier                                   Value
 _____________________________________________________________
 
-Moviegoer.NumberIn                          116.00    
-Moviegoer.NumberOut                         113.00    
-counter.NumberSeized                        107.00    
-counter.ScheduledUtilization                .88424    
-System.NumberOut                            113.00    
+Moviegoer.NumberIn                          266.00    
+Moviegoer.NumberOut                         251.00    
+counter.NumberSeized                        120.00    
+counter.ScheduledUtilization                .99514    
+System.NumberOut                            251.00    
 
 Beginning replication 22 of 30
 
@@ -1317,16 +1317,16 @@ Base Time Units: Minutes
 Identifier                                  Average   Half Width  Minimum    Maximum   Observations
 ___________________________________________________________________________________________________
 
-Movie1SoldOutTime                           81.610     (Insuf)    81.610     81.610          1    
-Movie2SoldOutTime                           116.27     (Insuf)    116.27     116.27          1    
-Movie3SoldOutTime                           45.321     (Insuf)    45.321     45.321          1    
-Moviegoer.VATime                            .00000     (Insuf)    .00000     .00000        120    
-Moviegoer.NVATime                           .00000     (Insuf)    .00000     .00000        120    
-Moviegoer.WaitTime                          3.1882     (Insuf)    .00000     10.090        120    
-Moviegoer.TranTime                          .00000     (Insuf)    .00000     .00000        120    
-Moviegoer.OtherTime                         .90000     (Insuf)    .00000     1.0000        120    
-Moviegoer.TotalTime                         4.0882     (Insuf)    .28506     11.090        120    
-Join Counter Queue.Queue.WaitingTime        3.1618     (Insuf)    .00000     10.090        121    
+Movie1SoldOutTime                           100.17     (Insuf)    100.17     100.17          1    
+Movie2SoldOutTime                           78.126     (Insuf)    78.126     78.126          1    
+Movie3SoldOutTime                           45.000     (Insuf)    45.000     45.000          1    
+Moviegoer.VATime                            .00000     (Insuf)    .00000     .00000        256    
+Moviegoer.NVATime                           .00000     (Insuf)    .00000     .00000        256    
+Moviegoer.WaitTime                          10.798     (Insuf)    .00000     26.883        256    
+Moviegoer.TranTime                          .00000     (Insuf)    .00000     .00000        256    
+Moviegoer.OtherTime                         .46484     (Insuf)    .00000     1.0000        256    
+Moviegoer.TotalTime                         11.263     (Insuf)    .36288     26.989        256    
+Join Counter Queue.Queue.WaitingTime        10.789     (Insuf)    .00000     26.883        257    
 Seize Counter for Movie Cust.Queue.Waiting      --         --         --         --          0
 
                                      DISCRETE-CHANGE VARIABLES
@@ -1334,11 +1334,11 @@ Seize Counter for Movie Cust.Queue.Waiting      --         --         --        
 Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
 ___________________________________________________________________________________________________
 
-Moviegoer.WIP                               4.0971     (Insuf)    .00000     12.000     2.0000    
-counter.NumberBusy                          .90656     (Insuf)    .00000     1.0000     1.0000    
+Moviegoer.WIP                               24.951     (Corr)     .00000     55.000     25.000    
+counter.NumberBusy                          .99858     (Insuf)    .00000     1.0000     1.0000    
 counter.NumberScheduled                     1.0000     (Insuf)    1.0000     1.0000     1.0000    
-counter.Utilization                         .90656     (Insuf)    .00000     1.0000     1.0000    
-Join Counter Queue.Queue.NumberInQueue      3.1905     (Insuf)    .00000     11.000     1.0000    
+counter.Utilization                         .99858     (Insuf)    .00000     1.0000     1.0000    
+Join Counter Queue.Queue.NumberInQueue      23.953     (Corr)     .00000     54.000     24.000    
 Seize Counter for Movie Cust.Queue.NumberI  .00000     (Insuf)    .00000     .00000     .00000    
 
                                              COUNTERS
@@ -1346,20 +1346,20 @@ Seize Counter for Movie Cust.Queue.NumberI  .00000     (Insuf)    .00000     .00
 Identifier                                    Count   Limit
 _____________________________________________________________
 
-Record Reneging Movie3 Customers                  5  Infinite
-Record Reneging Movie2 Customers                  6  Infinite
-Record Reneging Movie1 Customers                  1  Infinite
+Record Reneging Movie3 Customers                 54  Infinite
+Record Reneging Movie2 Customers                 49  Infinite
+Record Reneging Movie1 Customers                 34  Infinite
 
                                              OUTPUTS
 
 Identifier                                   Value
 _____________________________________________________________
 
-Moviegoer.NumberIn                          122.00    
-Moviegoer.NumberOut                         120.00    
-counter.NumberSeized                        109.00    
-counter.ScheduledUtilization                .90656    
-System.NumberOut                            120.00    
+Moviegoer.NumberIn                          281.00    
+Moviegoer.NumberOut                         256.00    
+counter.NumberSeized                        120.00    
+counter.ScheduledUtilization                .99858    
+System.NumberOut                            256.00    
 
 Beginning replication 23 of 30
 
@@ -1379,16 +1379,16 @@ Base Time Units: Minutes
 Identifier                                  Average   Half Width  Minimum    Maximum   Observations
 ___________________________________________________________________________________________________
 
-Movie1SoldOutTime                           79.365     (Insuf)    79.365     79.365          1    
-Movie2SoldOutTime                           68.365     (Insuf)    68.365     68.365          1    
-Movie3SoldOutTime                           60.150     (Insuf)    60.150     60.150          1    
-Moviegoer.VATime                            .00000     (Insuf)    .00000     .00000        117    
-Moviegoer.NVATime                           .00000     (Insuf)    .00000     .00000        117    
-Moviegoer.WaitTime                          2.2551     (Insuf)    .00000     8.1027        117    
-Moviegoer.TranTime                          .00000     (Insuf)    .00000     .00000        117    
-Moviegoer.OtherTime                         .95726     (Insuf)    .00000     1.0000        117    
-Moviegoer.TotalTime                         3.2124     (Insuf)    1.0000     9.1027        117    
-Join Counter Queue.Queue.WaitingTime        2.2596     (Insuf)    .00000     8.1027        118    
+Movie1SoldOutTime                           90.000     (Insuf)    90.000     90.000          1    
+Movie2SoldOutTime                           72.000     (Insuf)    72.000     72.000          1    
+Movie3SoldOutTime                           55.000     (Insuf)    55.000     55.000          1    
+Moviegoer.VATime                            .00000     (Insuf)    .00000     .00000        232    
+Moviegoer.NVATime                           .00000     (Insuf)    .00000     .00000        232    
+Moviegoer.WaitTime                          11.532     (Insuf)    .00000     28.595        232    
+Moviegoer.TranTime                          .00000     (Insuf)    .00000     .00000        232    
+Moviegoer.OtherTime                         .51724     (Insuf)    .00000     1.0000        232    
+Moviegoer.TotalTime                         12.049     (Insuf)    1.0000     29.053        232    
+Join Counter Queue.Queue.WaitingTime        11.546     (Insuf)    .00000     28.595        233    
 Seize Counter for Movie Cust.Queue.Waiting      --         --         --         --          0
 
                                      DISCRETE-CHANGE VARIABLES
@@ -1396,11 +1396,11 @@ Seize Counter for Movie Cust.Queue.Waiting      --         --         --        
 Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
 ___________________________________________________________________________________________________
 
-Moviegoer.WIP                               3.2209     (Insuf)    .00000     10.000     3.0000    
-counter.NumberBusy                          .94094     (Insuf)    .00000     1.0000     1.0000    
+Moviegoer.WIP                               25.478     (Corr)     .00000     69.000     31.000    
+counter.NumberBusy                          1.0000     (Insuf)    .00000     1.0000     1.0000    
 counter.NumberScheduled                     1.0000     (Insuf)    1.0000     1.0000     1.0000    
-counter.Utilization                         .94094     (Insuf)    .00000     1.0000     1.0000    
-Join Counter Queue.Queue.NumberInQueue      2.2800     (Insuf)    .00000     9.0000     2.0000    
+counter.Utilization                         1.0000     (Insuf)    .00000     1.0000     1.0000    
+Join Counter Queue.Queue.NumberInQueue      24.478     (Corr)     .00000     68.000     30.000    
 Seize Counter for Movie Cust.Queue.NumberI  .00000     (Insuf)    .00000     .00000     .00000    
 
                                              COUNTERS
@@ -1408,20 +1408,20 @@ Seize Counter for Movie Cust.Queue.NumberI  .00000     (Insuf)    .00000     .00
 Identifier                                    Count   Limit
 _____________________________________________________________
 
-Record Reneging Movie3 Customers                  0  Infinite
-Record Reneging Movie2 Customers                  0  Infinite
-Record Reneging Movie1 Customers                  5  Infinite
+Record Reneging Movie3 Customers                 60  Infinite
+Record Reneging Movie2 Customers                 32  Infinite
+Record Reneging Movie1 Customers                 20  Infinite
 
                                              OUTPUTS
 
 Identifier                                   Value
 _____________________________________________________________
 
-Moviegoer.NumberIn                          120.00    
-Moviegoer.NumberOut                         117.00    
-counter.NumberSeized                        113.00    
-counter.ScheduledUtilization                .94094    
-System.NumberOut                            117.00    
+Moviegoer.NumberIn                          263.00    
+Moviegoer.NumberOut                         232.00    
+counter.NumberSeized                        121.00    
+counter.ScheduledUtilization                1.0000    
+System.NumberOut                            232.00    
 
 Beginning replication 24 of 30
 
@@ -1441,16 +1441,16 @@ Base Time Units: Minutes
 Identifier                                  Average   Half Width  Minimum    Maximum   Observations
 ___________________________________________________________________________________________________
 
-Movie1SoldOutTime                               --         --         --         --          0
-Movie2SoldOutTime                           76.869     (Insuf)    76.869     76.869          1    
-Movie3SoldOutTime                           46.031     (Insuf)    46.031     46.031          1    
-Moviegoer.VATime                            .00000     (Insuf)    .00000     .00000        104    
-Moviegoer.NVATime                           .00000     (Insuf)    .00000     .00000        104    
-Moviegoer.WaitTime                          2.1558     (Insuf)    .00000     7.5819        104    
-Moviegoer.TranTime                          .00000     (Insuf)    .00000     .00000        104    
-Moviegoer.OtherTime                         .94231     (Insuf)    .00000     1.0000        104    
-Moviegoer.TotalTime                         3.0981     (Insuf)    .54121     8.5819        104    
-Join Counter Queue.Queue.WaitingTime        2.1558     (Insuf)    .00000     7.5819        104    
+Movie1SoldOutTime                           87.000     (Insuf)    87.000     87.000          1    
+Movie2SoldOutTime                           46.000     (Insuf)    46.000     46.000          1    
+Movie3SoldOutTime                           38.000     (Insuf)    38.000     38.000          1    
+Moviegoer.VATime                            .00000     (Insuf)    .00000     .00000        204    
+Moviegoer.NVATime                           .00000     (Insuf)    .00000     .00000        204    
+Moviegoer.WaitTime                          9.4683     (Insuf)    .00000     22.863        204    
+Moviegoer.TranTime                          .00000     (Insuf)    .00000     .00000        204    
+Moviegoer.OtherTime                         .58333     (Insuf)    .00000     1.0000        204    
+Moviegoer.TotalTime                         10.051     (Insuf)    .30971     23.863        204    
+Join Counter Queue.Queue.WaitingTime        9.5070     (Insuf)    .00000     22.863        205    
 Seize Counter for Movie Cust.Queue.Waiting      --         --         --         --          0
 
                                      DISCRETE-CHANGE VARIABLES
@@ -1458,11 +1458,11 @@ Seize Counter for Movie Cust.Queue.Waiting      --         --         --        
 Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
 ___________________________________________________________________________________________________
 
-Moviegoer.WIP                               2.6850     (Insuf)    .00000     9.0000     .00000    
-counter.NumberBusy                          .81667     (Insuf)    .00000     1.0000     .00000    
+Moviegoer.WIP                               19.601     (Corr)     .00000     41.000     33.000    
+counter.NumberBusy                          .99350     (Insuf)    .00000     1.0000     1.0000    
 counter.NumberScheduled                     1.0000     (Insuf)    1.0000     1.0000     1.0000    
-counter.Utilization                         .81667     (Insuf)    .00000     1.0000     .00000    
-Join Counter Queue.Queue.NumberInQueue      1.8684     (Insuf)    .00000     8.0000     .00000    
+counter.Utilization                         .99350     (Insuf)    .00000     1.0000     1.0000    
+Join Counter Queue.Queue.NumberInQueue      18.608     (Corr)     .00000     40.000     32.000    
 Seize Counter for Movie Cust.Queue.NumberI  .00000     (Insuf)    .00000     .00000     .00000    
 
                                              COUNTERS
@@ -1470,20 +1470,20 @@ Seize Counter for Movie Cust.Queue.NumberI  .00000     (Insuf)    .00000     .00
 Identifier                                    Count   Limit
 _____________________________________________________________
 
-Record Reneging Movie3 Customers                  2  Infinite
-Record Reneging Movie2 Customers                  4  Infinite
-Record Reneging Movie1 Customers                  0  Infinite
+Record Reneging Movie3 Customers                 33  Infinite
+Record Reneging Movie2 Customers                 12  Infinite
+Record Reneging Movie1 Customers                 40  Infinite
 
                                              OUTPUTS
 
 Identifier                                   Value
 _____________________________________________________________
 
-Moviegoer.NumberIn                          104.00    
-Moviegoer.NumberOut                         104.00    
-counter.NumberSeized                        98.000    
-counter.ScheduledUtilization                .81667    
-System.NumberOut                            104.00    
+Moviegoer.NumberIn                          237.00    
+Moviegoer.NumberOut                         204.00    
+counter.NumberSeized                        120.00    
+counter.ScheduledUtilization                .99350    
+System.NumberOut                            204.00    
 
 Beginning replication 25 of 30
 
@@ -1503,16 +1503,16 @@ Base Time Units: Minutes
 Identifier                                  Average   Half Width  Minimum    Maximum   Observations
 ___________________________________________________________________________________________________
 
-Movie1SoldOutTime                           48.381     (Insuf)    48.381     48.381          1    
-Movie2SoldOutTime                           108.05     (Insuf)    108.05     108.05          1    
-Movie3SoldOutTime                           63.381     (Insuf)    63.381     63.381          1    
-Moviegoer.VATime                            .00000     (Insuf)    .00000     .00000        150    
-Moviegoer.NVATime                           .00000     (Insuf)    .00000     .00000        150    
-Moviegoer.WaitTime                          5.0611     (Insuf)    .00000     13.797        150    
-Moviegoer.TranTime                          .00000     (Insuf)    .00000     .00000        150    
-Moviegoer.OtherTime                         .77333     (Insuf)    .00000     1.0000        150    
-Moviegoer.TotalTime                         5.8344     (Insuf)    .47427     14.797        150    
-Join Counter Queue.Queue.WaitingTime        5.0615     (Insuf)    .00000     13.797        151    
+Movie1SoldOutTime                           47.000     (Insuf)    47.000     47.000          1    
+Movie2SoldOutTime                           65.000     (Insuf)    65.000     65.000          1    
+Movie3SoldOutTime                           94.000     (Insuf)    94.000     94.000          1    
+Moviegoer.VATime                            .00000     (Insuf)    .00000     .00000        276    
+Moviegoer.NVATime                           .00000     (Insuf)    .00000     .00000        276    
+Moviegoer.WaitTime                          12.567     (Insuf)    .00000     31.621        276    
+Moviegoer.TranTime                          .00000     (Insuf)    .00000     .00000        276    
+Moviegoer.OtherTime                         .43116     (Insuf)    .00000     1.0000        276    
+Moviegoer.TotalTime                         12.999     (Insuf)    .03820     32.085        276    
+Join Counter Queue.Queue.WaitingTime        12.580     (Insuf)    .00000     31.621        277    
 Seize Counter for Movie Cust.Queue.Waiting      --         --         --         --          0
 
                                      DISCRETE-CHANGE VARIABLES
@@ -1520,11 +1520,11 @@ Seize Counter for Movie Cust.Queue.Waiting      --         --         --        
 Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
 ___________________________________________________________________________________________________
 
-Moviegoer.WIP                               7.6302     (Insuf)    .00000     19.000     12.000    
-counter.NumberBusy                          .97452     (Insuf)    .00000     1.0000     1.0000    
+Moviegoer.WIP                               32.991     (Corr)     .00000     91.000     38.000    
+counter.NumberBusy                          .99569     (Insuf)    .00000     1.0000     1.0000    
 counter.NumberScheduled                     1.0000     (Insuf)    1.0000     1.0000     1.0000    
-counter.Utilization                         .97452     (Insuf)    .00000     1.0000     1.0000    
-Join Counter Queue.Queue.NumberInQueue      6.6557     (Insuf)    .00000     18.000     11.000    
+counter.Utilization                         .99569     (Insuf)    .00000     1.0000     1.0000    
+Join Counter Queue.Queue.NumberInQueue      31.995     (Corr)     .00000     90.000     37.000    
 Seize Counter for Movie Cust.Queue.NumberI  .00000     (Insuf)    .00000     .00000     .00000    
 
                                              COUNTERS
@@ -1532,20 +1532,20 @@ Seize Counter for Movie Cust.Queue.NumberI  .00000     (Insuf)    .00000     .00
 Identifier                                    Count   Limit
 _____________________________________________________________
 
-Record Reneging Movie3 Customers                 10  Infinite
-Record Reneging Movie2 Customers                 11  Infinite
-Record Reneging Movie1 Customers                 13  Infinite
+Record Reneging Movie3 Customers                 43  Infinite
+Record Reneging Movie2 Customers                 28  Infinite
+Record Reneging Movie1 Customers                 86  Infinite
 
                                              OUTPUTS
 
 Identifier                                   Value
 _____________________________________________________________
 
-Moviegoer.NumberIn                          162.00    
-Moviegoer.NumberOut                         150.00    
-counter.NumberSeized                        117.00    
-counter.ScheduledUtilization                .97452    
-System.NumberOut                            150.00    
+Moviegoer.NumberIn                          314.00    
+Moviegoer.NumberOut                         276.00    
+counter.NumberSeized                        120.00    
+counter.ScheduledUtilization                .99569    
+System.NumberOut                            276.00    
 
 Beginning replication 26 of 30
 
@@ -1565,16 +1565,16 @@ Base Time Units: Minutes
 Identifier                                  Average   Half Width  Minimum    Maximum   Observations
 ___________________________________________________________________________________________________
 
-Movie1SoldOutTime                           77.555     (Insuf)    77.555     77.555          1    
-Movie2SoldOutTime                           71.642     (Insuf)    71.642     71.642          1    
-Movie3SoldOutTime                           51.607     (Insuf)    51.607     51.607          1    
-Moviegoer.VATime                            .00000     (Insuf)    .00000     .00000        116    
-Moviegoer.NVATime                           .00000     (Insuf)    .00000     .00000        116    
-Moviegoer.WaitTime                          3.1301     (Insuf)    .00000     7.3747        116    
-Moviegoer.TranTime                          .00000     (Insuf)    .00000     .00000        116    
-Moviegoer.OtherTime                         .96552     (Insuf)    .00000     1.0000        116    
-Moviegoer.TotalTime                         4.0956     (Insuf)    1.0000     8.3747        116    
-Join Counter Queue.Queue.WaitingTime        3.1424     (Insuf)    .00000     7.3747        117    
+Movie1SoldOutTime                           65.016     (Insuf)    65.016     65.016          1    
+Movie2SoldOutTime                           81.016     (Insuf)    81.016     81.016          1    
+Movie3SoldOutTime                           46.000     (Insuf)    46.000     46.000          1    
+Moviegoer.VATime                            .00000     (Insuf)    .00000     .00000        199    
+Moviegoer.NVATime                           .00000     (Insuf)    .00000     .00000        199    
+Moviegoer.WaitTime                          9.6306     (Insuf)    .00000     23.385        199    
+Moviegoer.TranTime                          .00000     (Insuf)    .00000     .00000        199    
+Moviegoer.OtherTime                         .59296     (Insuf)    .00000     1.0000        199    
+Moviegoer.TotalTime                         10.223     (Insuf)    .03061     24.385        199    
+Join Counter Queue.Queue.WaitingTime        9.6860     (Insuf)    .00000     23.385        200    
 Seize Counter for Movie Cust.Queue.Waiting      --         --         --         --          0
 
                                      DISCRETE-CHANGE VARIABLES
@@ -1582,11 +1582,11 @@ Seize Counter for Movie Cust.Queue.Waiting      --         --         --        
 Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
 ___________________________________________________________________________________________________
 
-Moviegoer.WIP                               4.0645     (Insuf)    .00000     9.0000     4.0000    
-counter.NumberBusy                          .93550     (Insuf)    .00000     1.0000     1.0000    
+Moviegoer.WIP                               22.121     (Corr)     .00000     63.000     57.000    
+counter.NumberBusy                          .99153     (Insuf)    .00000     1.0000     1.0000    
 counter.NumberScheduled                     1.0000     (Insuf)    1.0000     1.0000     1.0000    
-counter.Utilization                         .93550     (Insuf)    .00000     1.0000     1.0000    
-Join Counter Queue.Queue.NumberInQueue      3.1290     (Insuf)    .00000     8.0000     3.0000    
+counter.Utilization                         .99153     (Insuf)    .00000     1.0000     1.0000    
+Join Counter Queue.Queue.NumberInQueue      21.130     (Corr)     .00000     62.000     56.000    
 Seize Counter for Movie Cust.Queue.NumberI  .00000     (Insuf)    .00000     .00000     .00000    
 
                                              COUNTERS
@@ -1594,20 +1594,20 @@ Seize Counter for Movie Cust.Queue.NumberI  .00000     (Insuf)    .00000     .00
 Identifier                                    Count   Limit
 _____________________________________________________________
 
-Record Reneging Movie3 Customers                  0  Infinite
-Record Reneging Movie2 Customers                  4  Infinite
-Record Reneging Movie1 Customers                  0  Infinite
+Record Reneging Movie3 Customers                 62  Infinite
+Record Reneging Movie2 Customers                 11  Infinite
+Record Reneging Movie1 Customers                  8  Infinite
 
                                              OUTPUTS
 
 Identifier                                   Value
 _____________________________________________________________
 
-Moviegoer.NumberIn                          120.00    
-Moviegoer.NumberOut                         116.00    
-counter.NumberSeized                        113.00    
-counter.ScheduledUtilization                .93550    
-System.NumberOut                            116.00    
+Moviegoer.NumberIn                          256.00    
+Moviegoer.NumberOut                         199.00    
+counter.NumberSeized                        119.00    
+counter.ScheduledUtilization                .99153    
+System.NumberOut                            199.00    
 
 Beginning replication 27 of 30
 
@@ -1627,16 +1627,16 @@ Base Time Units: Minutes
 Identifier                                  Average   Half Width  Minimum    Maximum   Observations
 ___________________________________________________________________________________________________
 
-Movie1SoldOutTime                           56.087     (Insuf)    56.087     56.087          1    
-Movie2SoldOutTime                           108.79     (Insuf)    108.79     108.79          1    
-Movie3SoldOutTime                           60.087     (Insuf)    60.087     60.087          1    
-Moviegoer.VATime                            .00000     (Insuf)    .00000     .00000        121    
-Moviegoer.NVATime                           .00000     (Insuf)    .00000     .00000        121    
-Moviegoer.WaitTime                          3.4842     (Insuf)    .00000     9.1807        121    
-Moviegoer.TranTime                          .00000     (Insuf)    .00000     .00000        121    
-Moviegoer.OtherTime                         .93388     (Insuf)    .00000     1.0000        121    
-Moviegoer.TotalTime                         4.4181     (Insuf)    1.0000     10.180        121    
-Join Counter Queue.Queue.WaitingTime        3.4981     (Insuf)    .00000     9.1807        122    
+Movie1SoldOutTime                           55.000     (Insuf)    55.000     55.000          1    
+Movie2SoldOutTime                           78.000     (Insuf)    78.000     78.000          1    
+Movie3SoldOutTime                           61.000     (Insuf)    61.000     61.000          1    
+Moviegoer.VATime                            .00000     (Insuf)    .00000     .00000        233    
+Moviegoer.NVATime                           .00000     (Insuf)    .00000     .00000        233    
+Moviegoer.WaitTime                          12.492     (Insuf)    .00000     32.667        233    
+Moviegoer.TranTime                          .00000     (Insuf)    .00000     .00000        233    
+Moviegoer.OtherTime                         .51502     (Insuf)    .00000     1.0000        233    
+Moviegoer.TotalTime                         13.007     (Insuf)    .72955     33.640        233    
+Join Counter Queue.Queue.WaitingTime        12.525     (Insuf)    .00000     32.667        234    
 Seize Counter for Movie Cust.Queue.Waiting      --         --         --         --          0
 
                                      DISCRETE-CHANGE VARIABLES
@@ -1644,11 +1644,11 @@ Seize Counter for Movie Cust.Queue.Waiting      --         --         --        
 Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
 ___________________________________________________________________________________________________
 
-Moviegoer.WIP                               4.6955     (Insuf)    .00000     11.000     9.0000    
-counter.NumberBusy                          .94334     (Insuf)    .00000     1.0000     1.0000    
+Moviegoer.WIP                               29.087     (Corr)     .00000     81.000     49.000    
+counter.NumberBusy                          1.0000     (Insuf)    .00000     1.0000     1.0000    
 counter.NumberScheduled                     1.0000     (Insuf)    1.0000     1.0000     1.0000    
-counter.Utilization                         .94334     (Insuf)    .00000     1.0000     1.0000    
-Join Counter Queue.Queue.NumberInQueue      3.7522     (Insuf)    .00000     10.000     8.0000    
+counter.Utilization                         1.0000     (Insuf)    .00000     1.0000     1.0000    
+Join Counter Queue.Queue.NumberInQueue      28.087     (Corr)     .00000     80.000     48.000    
 Seize Counter for Movie Cust.Queue.NumberI  .00000     (Insuf)    .00000     .00000     .00000    
 
                                              COUNTERS
@@ -1656,20 +1656,20 @@ Seize Counter for Movie Cust.Queue.NumberI  .00000     (Insuf)    .00000     .00
 Identifier                                    Count   Limit
 _____________________________________________________________
 
-Record Reneging Movie3 Customers                  2  Infinite
-Record Reneging Movie2 Customers                  3  Infinite
-Record Reneging Movie1 Customers                  3  Infinite
+Record Reneging Movie3 Customers                  8  Infinite
+Record Reneging Movie2 Customers                 27  Infinite
+Record Reneging Movie1 Customers                 78  Infinite
 
                                              OUTPUTS
 
 Identifier                                   Value
 _____________________________________________________________
 
-Moviegoer.NumberIn                          130.00    
-Moviegoer.NumberOut                         121.00    
-counter.NumberSeized                        114.00    
-counter.ScheduledUtilization                .94334    
-System.NumberOut                            121.00    
+Moviegoer.NumberIn                          282.00    
+Moviegoer.NumberOut                         233.00    
+counter.NumberSeized                        121.00    
+counter.ScheduledUtilization                1.0000    
+System.NumberOut                            233.00    
 
 Beginning replication 28 of 30
 
@@ -1690,15 +1690,15 @@ Identifier                                  Average   Half Width  Minimum    Max
 ___________________________________________________________________________________________________
 
 Movie1SoldOutTime                           53.374     (Insuf)    53.374     53.374          1    
-Movie2SoldOutTime                           52.193     (Insuf)    52.193     52.193          1    
-Movie3SoldOutTime                           64.513     (Insuf)    64.513     64.513          1    
-Moviegoer.VATime                            .00000     (Insuf)    .00000     .00000        122    
-Moviegoer.NVATime                           .00000     (Insuf)    .00000     .00000        122    
-Moviegoer.WaitTime                          2.7625     (Insuf)    .00000     9.5499        122    
-Moviegoer.TranTime                          .00000     (Insuf)    .00000     .00000        122    
-Moviegoer.OtherTime                         .90984     (Insuf)    .00000     1.0000        122    
-Moviegoer.TotalTime                         3.6723     (Insuf)    .11791     10.549        122    
-Join Counter Queue.Queue.WaitingTime        2.8122     (Insuf)    .00000     9.5499        123    
+Movie2SoldOutTime                           50.000     (Insuf)    50.000     50.000          1    
+Movie3SoldOutTime                           69.519     (Insuf)    69.519     69.519          1    
+Moviegoer.VATime                            .00000     (Insuf)    .00000     .00000        227    
+Moviegoer.NVATime                           .00000     (Insuf)    .00000     .00000        227    
+Moviegoer.WaitTime                          12.149     (Insuf)    .00000     28.851        227    
+Moviegoer.TranTime                          .00000     (Insuf)    .00000     .00000        227    
+Moviegoer.OtherTime                         .51982     (Insuf)    .00000     1.0000        227    
+Moviegoer.TotalTime                         12.669     (Insuf)    .25787     29.851        227    
+Join Counter Queue.Queue.WaitingTime        12.225     (Insuf)    .00000     29.604        228    
 Seize Counter for Movie Cust.Queue.Waiting      --         --         --         --          0
 
                                      DISCRETE-CHANGE VARIABLES
@@ -1706,11 +1706,11 @@ Seize Counter for Movie Cust.Queue.Waiting      --         --         --        
 Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
 ___________________________________________________________________________________________________
 
-Moviegoer.WIP                               4.0708     (Insuf)    .00000     12.000     11.000    
-counter.NumberBusy                          .92507     (Insuf)    .00000     1.0000     1.0000    
+Moviegoer.WIP                               33.491     (Corr)     .00000     75.000     73.000    
+counter.NumberBusy                          .98619     (Insuf)    .00000     1.0000     1.0000    
 counter.NumberScheduled                     1.0000     (Insuf)    1.0000     1.0000     1.0000    
-counter.Utilization                         .92507     (Insuf)    .00000     1.0000     1.0000    
-Join Counter Queue.Queue.NumberInQueue      3.1457     (Insuf)    .00000     11.000     10.000    
+counter.Utilization                         .98619     (Insuf)    .00000     1.0000     1.0000    
+Join Counter Queue.Queue.NumberInQueue      32.505     (Corr)     .00000     74.000     72.000    
 Seize Counter for Movie Cust.Queue.NumberI  .00000     (Insuf)    .00000     .00000     .00000    
 
                                              COUNTERS
@@ -1718,20 +1718,20 @@ Seize Counter for Movie Cust.Queue.NumberI  .00000     (Insuf)    .00000     .00
 Identifier                                    Count   Limit
 _____________________________________________________________
 
-Record Reneging Movie3 Customers                  0  Infinite
-Record Reneging Movie2 Customers                 10  Infinite
-Record Reneging Movie1 Customers                  1  Infinite
+Record Reneging Movie3 Customers                 28  Infinite
+Record Reneging Movie2 Customers                 74  Infinite
+Record Reneging Movie1 Customers                  7  Infinite
 
                                              OUTPUTS
 
 Identifier                                   Value
 _____________________________________________________________
 
-Moviegoer.NumberIn                          133.00    
-Moviegoer.NumberOut                         122.00    
-counter.NumberSeized                        112.00    
-counter.ScheduledUtilization                .92507    
-System.NumberOut                            122.00    
+Moviegoer.NumberIn                          300.00    
+Moviegoer.NumberOut                         227.00    
+counter.NumberSeized                        119.00    
+counter.ScheduledUtilization                .98619    
+System.NumberOut                            227.00    
 
 Beginning replication 29 of 30
 
@@ -1751,16 +1751,16 @@ Base Time Units: Minutes
 Identifier                                  Average   Half Width  Minimum    Maximum   Observations
 ___________________________________________________________________________________________________
 
-Movie1SoldOutTime                               --         --         --         --          0
-Movie2SoldOutTime                           63.827     (Insuf)    63.827     63.827          1    
-Movie3SoldOutTime                           47.054     (Insuf)    47.054     47.054          1    
-Moviegoer.VATime                            .00000     (Insuf)    .00000     .00000        129    
-Moviegoer.NVATime                           .00000     (Insuf)    .00000     .00000        129    
-Moviegoer.WaitTime                          3.5145     (Insuf)    .00000     9.0621        129    
-Moviegoer.TranTime                          .00000     (Insuf)    .00000     .00000        129    
-Moviegoer.OtherTime                         .87597     (Insuf)    .00000     1.0000        129    
-Moviegoer.TotalTime                         4.3904     (Insuf)    .54277     10.062        129    
-Join Counter Queue.Queue.WaitingTime        3.5316     (Insuf)    .00000     9.0621        130    
+Movie1SoldOutTime                           58.000     (Insuf)    58.000     58.000          1    
+Movie2SoldOutTime                           59.200     (Insuf)    59.200     59.200          1    
+Movie3SoldOutTime                           43.000     (Insuf)    43.000     43.000          1    
+Moviegoer.VATime                            .00000     (Insuf)    .00000     .00000        213    
+Moviegoer.NVATime                           .00000     (Insuf)    .00000     .00000        213    
+Moviegoer.WaitTime                          12.473     (Insuf)    .00000     34.881        213    
+Moviegoer.TranTime                          .00000     (Insuf)    .00000     .00000        213    
+Moviegoer.OtherTime                         .55869     (Insuf)    .00000     1.0000        213    
+Moviegoer.TotalTime                         13.031     (Insuf)    .05420     35.881        213    
+Join Counter Queue.Queue.WaitingTime        12.577     (Insuf)    .00000     34.887        214    
 Seize Counter for Movie Cust.Queue.Waiting      --         --         --         --          0
 
                                      DISCRETE-CHANGE VARIABLES
@@ -1768,11 +1768,11 @@ Seize Counter for Movie Cust.Queue.Waiting      --         --         --        
 Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
 ___________________________________________________________________________________________________
 
-Moviegoer.WIP                               4.8769     (Insuf)    .00000     13.000     5.0000    
-counter.NumberBusy                          .94419     (Insuf)    .00000     1.0000     1.0000    
+Moviegoer.WIP                               37.260     (Corr)     .00000     94.000     93.000    
+counter.NumberBusy                          .99631     (Insuf)    .00000     1.0000     1.0000    
 counter.NumberScheduled                     1.0000     (Insuf)    1.0000     1.0000     1.0000    
-counter.Utilization                         .94419     (Insuf)    .00000     1.0000     1.0000    
-Join Counter Queue.Queue.NumberInQueue      3.9327     (Insuf)    .00000     12.000     4.0000    
+counter.Utilization                         .99631     (Insuf)    .00000     1.0000     1.0000    
+Join Counter Queue.Queue.NumberInQueue      36.263     (Corr)     .00000     93.000     92.000    
 Seize Counter for Movie Cust.Queue.NumberI  .00000     (Insuf)    .00000     .00000     .00000    
 
                                              COUNTERS
@@ -1780,20 +1780,20 @@ Seize Counter for Movie Cust.Queue.NumberI  .00000     (Insuf)    .00000     .00
 Identifier                                    Count   Limit
 _____________________________________________________________
 
-Record Reneging Movie3 Customers                 10  Infinite
-Record Reneging Movie2 Customers                  6  Infinite
-Record Reneging Movie1 Customers                  0  Infinite
+Record Reneging Movie3 Customers                 66  Infinite
+Record Reneging Movie2 Customers                  4  Infinite
+Record Reneging Movie1 Customers                 24  Infinite
 
                                              OUTPUTS
 
 Identifier                                   Value
 _____________________________________________________________
 
-Moviegoer.NumberIn                          134.00    
-Moviegoer.NumberOut                         129.00    
-counter.NumberSeized                        114.00    
-counter.ScheduledUtilization                .94419    
-System.NumberOut                            129.00    
+Moviegoer.NumberIn                          306.00    
+Moviegoer.NumberOut                         213.00    
+counter.NumberSeized                        120.00    
+counter.ScheduledUtilization                .99631    
+System.NumberOut                            213.00    
 
 Beginning replication 30 of 30
 
@@ -1813,16 +1813,16 @@ Base Time Units: Minutes
 Identifier                                  Average   Half Width  Minimum    Maximum   Observations
 ___________________________________________________________________________________________________
 
-Movie1SoldOutTime                           51.650     (Insuf)    51.650     51.650          1    
-Movie2SoldOutTime                           53.650     (Insuf)    53.650     53.650          1    
-Movie3SoldOutTime                           92.488     (Insuf)    92.488     92.488          1    
-Moviegoer.VATime                            .00000     (Insuf)    .00000     .00000        116    
-Moviegoer.NVATime                           .00000     (Insuf)    .00000     .00000        116    
-Moviegoer.WaitTime                          3.4985     (Insuf)    .00000     9.0910        116    
-Moviegoer.TranTime                          .00000     (Insuf)    .00000     .00000        116    
-Moviegoer.OtherTime                         .97414     (Insuf)    .00000     1.0000        116    
-Moviegoer.TotalTime                         4.4726     (Insuf)    1.0000     10.091        116    
-Join Counter Queue.Queue.WaitingTime        3.4930     (Insuf)    .00000     9.0910        117    
+Movie1SoldOutTime                           51.000     (Insuf)    51.000     51.000          1    
+Movie2SoldOutTime                           111.79     (Insuf)    111.79     111.79          1    
+Movie3SoldOutTime                           77.792     (Insuf)    77.792     77.792          1    
+Moviegoer.VATime                            .00000     (Insuf)    .00000     .00000        267    
+Moviegoer.NVATime                           .00000     (Insuf)    .00000     .00000        267    
+Moviegoer.WaitTime                          11.137     (Insuf)    .00000     31.702        267    
+Moviegoer.TranTime                          .00000     (Insuf)    .00000     .00000        267    
+Moviegoer.OtherTime                         .44195     (Insuf)    .00000     1.0000        267    
+Moviegoer.TotalTime                         11.579     (Insuf)    .03054     31.856        267    
+Join Counter Queue.Queue.WaitingTime        11.115     (Insuf)    .00000     31.702        268    
 Seize Counter for Movie Cust.Queue.Waiting      --         --         --         --          0
 
                                      DISCRETE-CHANGE VARIABLES
@@ -1830,11 +1830,11 @@ Seize Counter for Movie Cust.Queue.Waiting      --         --         --        
 Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
 ___________________________________________________________________________________________________
 
-Moviegoer.WIP                               4.4273     (Insuf)    .00000     11.000     5.0000    
-counter.NumberBusy                          .94593     (Insuf)    .00000     1.0000     1.0000    
+Moviegoer.WIP                               26.123     (Corr)     .00000     66.000     14.000    
+counter.NumberBusy                          .99099     (Insuf)    .00000     1.0000     1.0000    
 counter.NumberScheduled                     1.0000     (Insuf)    1.0000     1.0000     1.0000    
-counter.Utilization                         .94593     (Insuf)    .00000     1.0000     1.0000    
-Join Counter Queue.Queue.NumberInQueue      3.4814     (Insuf)    .00000     10.000     4.0000    
+counter.Utilization                         .99099     (Insuf)    .00000     1.0000     1.0000    
+Join Counter Queue.Queue.NumberInQueue      25.132     (Corr)     .00000     65.000     13.000    
 Seize Counter for Movie Cust.Queue.NumberI  .00000     (Insuf)    .00000     .00000     .00000    
 
                                              COUNTERS
@@ -1842,20 +1842,20 @@ Seize Counter for Movie Cust.Queue.NumberI  .00000     (Insuf)    .00000     .00
 Identifier                                    Count   Limit
 _____________________________________________________________
 
-Record Reneging Movie3 Customers                  0  Infinite
-Record Reneging Movie2 Customers                  3  Infinite
-Record Reneging Movie1 Customers                  0  Infinite
+Record Reneging Movie3 Customers                 36  Infinite
+Record Reneging Movie2 Customers                 48  Infinite
+Record Reneging Movie1 Customers                 65  Infinite
 
                                              OUTPUTS
 
 Identifier                                   Value
 _____________________________________________________________
 
-Moviegoer.NumberIn                          121.00    
-Moviegoer.NumberOut                         116.00    
-counter.NumberSeized                        114.00    
-counter.ScheduledUtilization                .94593    
-System.NumberOut                            116.00    
+Moviegoer.NumberIn                          281.00    
+Moviegoer.NumberOut                         267.00    
+counter.NumberSeized                        119.00    
+counter.ScheduledUtilization                .99099    
+System.NumberOut                            267.00    
 
 
                                       ARENA Simulation Results
@@ -1872,11 +1872,11 @@ Analyst: Sesdyn                                                      Model revis
 Identifier                                 Average    Half-width Minimum    Maximum # Replications
 ___________________________________________________________________________________________________
 
-Moviegoer.NumberIn                          125.40     4.5002     101.00     162.00     30
-Moviegoer.NumberOut                         119.86     3.4842     100.00     150.00     30
-counter.NumberSeized                        110.93     2.1480     96.000     118.00     30
-counter.ScheduledUtilization                .92068     .01760     .79920     .98105     30
-System.NumberOut                            119.86     3.4842     100.00     150.00     30
+Moviegoer.NumberIn                          281.63     6.8217     237.00     314.00     30
+Moviegoer.NumberOut                         229.76     9.9552     173.00     276.00     30
+counter.NumberSeized                        120.10     .28333     119.00     121.00     30
+counter.ScheduledUtilization                .99605     .00171     .98619     1.0000     30
+System.NumberOut                            229.76     9.9552     173.00     276.00     30
 
-Simulation run time: 0.13 minutes.
+Simulation run time: 0.20 minutes.
 Simulation run complete.
