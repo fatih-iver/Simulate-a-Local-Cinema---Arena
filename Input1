@@ -63,3 +63,49 @@ Lognormal      0.00747
 Normal         0.107
 Triangular     0.15
 Uniform        0.221
+
+	Distribution Summary
+
+Distribution:	Lognormal    
+Expression:	LOGN(0.943, 2.51)
+Square Error:	0.007472
+
+Chi Square Test
+  Number of intervals	= 3
+  Degrees of freedom 	= 0
+  Test Statistic     	= 4.27
+  Corresponding p-value	< 0.005
+
+Kolmogorov-Smirnov Test
+  Test Statistic	= 0.148
+  Corresponding p-value	= 0.0227
+
+	Data Summary
+
+Number of Data Points	= 100
+Min Data Value       	= 0.002
+Max Data Value       	= 3.87
+Sample Mean          	= 0.638
+Sample Std Dev       	= 0.643
+
+	Histogram Summary
+
+Histogram Range    	= 0 to 4
+Number of Intervals	= 10
+
+
+==================================================================
+Int.   No. of               Probability           Cumulative      
+No.    Data Pts.   x        Density               Distribution    
+------------------------------------------------------------------
+                            Data   Function       Data   Function   
+   0    50      0.400      0.500      0.551      0.500      0.551
+   1    22      0.800      0.220      0.177      0.720      0.728
+   2    11       1.20      0.110     0.0845      0.830      0.813
+   3     7       1.60     0.0700     0.0487      0.900      0.862
+   4     7       2.00     0.0700     0.0313      0.970      0.893
+   5     2       2.40     0.0200     0.0215      0.990      0.914
+   6     0       2.80      0.000     0.0155      0.990      0.930
+   7     0       3.20      0.000     0.0116      0.990      0.941
+   8     0       3.60      0.000    0.00892      0.990      0.950
+   9     1       4.00     0.0100    0.00703       1.00      0.957
